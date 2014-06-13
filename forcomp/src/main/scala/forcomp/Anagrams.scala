@@ -88,16 +88,16 @@ object Anagrams {
    *  in the example above could have been displayed in some other order.
    */
   def combinations(occurrences: Occurrences): List[Occurrences] = occurrences match {
-  case Nil => List(List())
-  case xs::ys => {
-  									val l1 = (1 to xs._2).toList
-  									val rec = combinations(ys)
-  									rec:::(for {
-  									     zs <- l1
-  									     ws <- rec
-  									} yield (xs._1,zs)::ws)
-  							 }
- 
+	  case Nil => List(List())
+	  case xs::ys => {
+	  									val l1 = (1 to xs._2).toList
+	  									val rec = combinations(ys)
+	  									rec:::(for {
+	  									     zs <- l1
+	  									     ws <- rec
+	  									} yield (xs._1,zs)::ws)
+	  							 }
+	 
  }                                            
 
   /** Subtracts occurrence list `y` from occurrence list `x`.

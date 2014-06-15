@@ -96,10 +96,12 @@ object Anagrams {
 	  									     zs <- l1
 	  									     ws <- rec
 	  									} yield (xs._1,zs)::ws)
-	  							 }
+	  				}
 	 
- }                                            
-
+ }   
+  
+  
+  
   /** Subtracts occurrence list `y` from occurrence list `x`.
    * 
    *  The precondition is that the occurrence list `y` is a subset of
@@ -110,7 +112,13 @@ object Anagrams {
    *  Note: the resulting value is an occurrence - meaning it is sorted
    *  and has no zero-entries.
    */
-  def subtract(x: Occurrences, y: Occurrences): Occurrences = ???
+  def subtract(x: Occurrences, y: Occurrences): Occurrences = {
+    for {
+        xs<-x
+        zs=y.find(ws=>ws._1==xs._1) match {  case None => (xs._1,0) case Some(tp) => tp}
+        if(zs._2<xs._2)
+    } yield (if (zs._2==0) xs else (xs._1,xs._2-zs._2))
+  }
 
   /** Returns a list of all anagram sentences of the given sentence.
    *  
@@ -152,6 +160,23 @@ object Anagrams {
    *
    *  Note: There is only one anagram of an empty sentence.
    */
-  def sentenceAnagrams(sentence: Sentence): List[Sentence] = ???
+  def sentenceAnagrams(sentence: Sentence): List[Sentence] = {
+  
+	  def rec_sent_ana(occ: Occurrences): List[Sentence] = occ match {
+	    	case List() => List(List())
+			case ys::zs => {
+				  for {
+				        one_comb<-combinations(ys::zs)
+				        words = dictionaryByOccurrences.getOrElse(one_comb, List())
+				        one_word <- words
+				        loc_sentence <- rec_sent_ana(subtract(occ,wordOccurrences(one_word)))
+				  } yield one_word::loc_sentence
+			}
+	  }   
+    
+      rec_sent_ana(sentenceOccurrences(sentence))         
+      
+  }
 
 }
+

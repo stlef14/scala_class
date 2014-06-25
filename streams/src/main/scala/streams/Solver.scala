@@ -10,7 +10,10 @@ trait Solver extends GameDef {
   /**
    * Returns `true` if the block `b` is at the final position
    */
-  def done(b: Block): Boolean = ???
+  def done(b: Block): Boolean = {
+    // we're done if the block stands up on the terminal position
+    if(b.b1==b.b2 && b.b1==goal) true else false
+  }
 
   /**
    * This function takes two arguments: the current block `b` and
@@ -28,7 +31,14 @@ trait Solver extends GameDef {
    * It should only return valid neighbors, i.e. block positions
    * that are inside the terrain.
    */
-  def neighborsWithHistory(b: Block, history: List[Move]): Stream[(Block, List[Move])] = ???
+  def neighborsWithHistory(b: Block, history: List[Move]): Stream[(Block, List[Move])] = {
+    
+    val legalNeighbors = b.legalNeighbors
+    
+    val curList = for(xs<-legalNeighbors) yield (xs._1,xs._2::history)
+    
+    curList.toStream
+  }
 
   /**
    * This function returns the list of neighbors without the block
@@ -36,7 +46,12 @@ trait Solver extends GameDef {
    * make sure that we don't explore circular paths.
    */
   def newNeighborsOnly(neighbors: Stream[(Block, List[Move])],
-                       explored: Set[Block]): Stream[(Block, List[Move])] = ???
+                       explored: Set[Block]): Stream[(Block, List[Move])] = {
+    
+    val newStream = for(xs<-neighbors if(!explored.contains(xs._1))) yield (xs)
+    
+    newStream.toStream
+  }
 
   /**
    * The function `from` returns the stream of all possible paths
@@ -62,8 +77,40 @@ trait Solver extends GameDef {
    * construct the correctly sorted stream.
    */
   def from(initial: Stream[(Block, List[Move])],
-           explored: Set[Block]): Stream[(Block, List[Move])] = ???
+           explored: Set[Block]): Stream[(Block, List[Move])] = {
+    
+	   if (initial.isEmpty)  Stream.Empty
+	   else {
+		   // From the initial, get the neighbors
+		   val newblockpos = for{xs<-initial
+							     ys<-newNeighborsOnly(neighborsWithHistory(xs._1,xs._2),explored)
+							 } yield {
+							        explored + ys._1
+							    	ys
+							 }
+			// the paths that reached the goal were removed
+			// append the longest paths
+			initial ++ from(newblockpos,explored)
+	   }
 
+    Stream()
+  }
+
+  	/*   val allneighbors = for(xs<-initial) yield {
+    		explored + xs._1
+    		neighborsWithHistory(xs._1,xs._2)
+    }*/
+    
+    // only keep the valid neighbors
+    //val allvalidneighbors =  newNeighborsOnly(allneighbors.flatten,explored)
+        
+    // 
+  
+  
+  
+  
+  
+  
   /**
    * The stream of all paths that begin at the starting block.
    */

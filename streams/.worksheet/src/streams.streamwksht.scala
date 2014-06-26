@@ -30,9 +30,24 @@ myblock.isLegal;System.out.println("""res3: Boolean = """ + $show(res$3));$skip(
 myblock.neighbors;System.out.println("""res4: List[(streams.streamwksht.spterrain.Block, streams.streamwksht.spterrain.Move)] = """ + $show(res$4));$skip(23); val res$5 = 
 myblock.legalNeighbors
 
-class SPSolver extends SPTerrain, Solver {};System.out.println("""res5: List[(streams.streamwksht.spterrain.Block, streams.streamwksht.spterrain.Move)] = """ + $show(res$5));$skip(76); 
 
-val spsolver = new SPSolver();System.out.println("""spsolver  : streams.streamwksht.SPSolver = """ + $show(spsolver ));$skip(82); val res$6 = 
 
- spsolver.from(Stream((spterrain.startBlock,List())),List(spterrain.startBlock));System.out.println("""res6: <error> = """ + $show(res$6))}
+class SPSolver extends Solver with StringParserTerrain {
+    val level = """So
+                  |oo
+                  |oT""".stripMargin
+};System.out.println("""res5: List[(streams.streamwksht.spterrain.Block, streams.streamwksht.spterrain.Move)] = """ + $show(res$5));$skip(176); 
+
+
+
+val spsolver = new SPSolver();System.out.println("""spsolver  : streams.streamwksht.SPSolver = """ + $show(spsolver ));$skip(53); 
+
+val startS = Stream( (spsolver.startBlock,List()) );System.out.println("""startS  : scala.collection.immutable.Stream[(streams.streamwksht.spsolver.Block, List[Nothing])] = """ + $show(startS ));$skip(47); val res$6 = 
+spsolver.from(startS,Set(spsolver.startBlock));System.out.println("""res6: Stream[(streams.streamwksht.spsolver.Block, List[streams.streamwksht.spsolver.Move])] = """ + $show(res$6));$skip(68); val res$7 = 
+                                         
+
+spsolver.pathsFromStart;System.out.println("""res7: Stream[(streams.streamwksht.spsolver.Block, List[streams.streamwksht.spsolver.Move])] = """ + $show(res$7));$skip(18); val res$8 = 
+spsolver.solution;System.out.println("""res8: List[streams.streamwksht.spsolver.Move] = """ + $show(res$8))}
+               
+
 }

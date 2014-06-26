@@ -78,49 +78,42 @@ trait Solver extends GameDef {
    */
   def from(initial: Stream[(Block, List[Move])],
            explored: Set[Block]): Stream[(Block, List[Move])] = {
-    
-	   if (initial.isEmpty)  Stream.Empty
-	   else {
+	   if (initial.isEmpty)  { 
+		   Stream.Empty
+	   } else {
 		   // From the initial, get the neighbors
 		   val newblockpos = for{xs<-initial
 							     ys<-newNeighborsOnly(neighborsWithHistory(xs._1,xs._2),explored)
 							 } yield {
-							        explored + ys._1
 							    	ys
 							 }
+							 
+			val unzipblocks = newblockpos.unzip
 			// the paths that reached the goal were removed
 			// append the longest paths
-			initial ++ from(newblockpos,explored)
+			initial ++ from(newblockpos,explored++unzipblocks._1)
 	   }
-
-    Stream()
   }
-
-  	/*   val allneighbors = for(xs<-initial) yield {
-    		explored + xs._1
-    		neighborsWithHistory(xs._1,xs._2)
-    }*/
-    
-    // only keep the valid neighbors
-    //val allvalidneighbors =  newNeighborsOnly(allneighbors.flatten,explored)
-        
-    // 
-  
-  
-  
   
   
   
   /**
    * The stream of all paths that begin at the starting block.
    */
-  lazy val pathsFromStart: Stream[(Block, List[Move])] = ???
+  lazy val pathsFromStart: Stream[(Block, List[Move])] = 
+  {
+      from(Stream((startBlock,List())),Set(startBlock))
+  }
 
   /**
    * Returns a stream of all possible pairs of the goal block along
    * with the history how it was reached.
    */
-  lazy val pathsToGoal: Stream[(Block, List[Move])] = ???
+  lazy val pathsToGoal: Stream[(Block, List[Move])] = {
+    
+      val paths = pathsFromStart
+      for(xs<-paths if done(xs._1)) yield (xs)
+  }
 
   /**
    * The (or one of the) shortest sequence(s) of moves to reach the
@@ -130,5 +123,8 @@ trait Solver extends GameDef {
    * the first move that the player should perform from the starting
    * position.
    */
-  lazy val solution: List[Move] = ???
+  lazy val solution: List[Move] = {
+    val pathssol = pathsToGoal
+    pathssol.head._2
+  }
 }

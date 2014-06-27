@@ -36,18 +36,28 @@ class SPSolver extends Solver with StringParserTerrain {
     val level = """So
                   |oo
                   |oT""".stripMargin
-};System.out.println("""res5: List[(streams.streamwksht.spterrain.Block, streams.streamwksht.spterrain.Move)] = """ + $show(res$5));$skip(176); 
+};System.out.println("""res5: List[(streams.streamwksht.spterrain.Block, streams.streamwksht.spterrain.Move)] = """ + $show(res$5));$skip(178); 
+
+
 
 
 
 val spsolver = new SPSolver();System.out.println("""spsolver  : streams.streamwksht.SPSolver = """ + $show(spsolver ));$skip(53); 
 
 val startS = Stream( (spsolver.startBlock,List()) );System.out.println("""startS  : scala.collection.immutable.Stream[(streams.streamwksht.spsolver.Block, List[Nothing])] = """ + $show(startS ));$skip(47); val res$6 = 
-spsolver.from(startS,Set(spsolver.startBlock));System.out.println("""res6: Stream[(streams.streamwksht.spsolver.Block, List[streams.streamwksht.spsolver.Move])] = """ + $show(res$6));$skip(68); val res$7 = 
+spsolver.from(startS,Set(spsolver.startBlock));System.out.println("""res6: Stream[(streams.streamwksht.spsolver.Block, List[streams.streamwksht.spsolver.Move])] = """ + $show(res$6));$skip(66); val res$7 = 
                                          
 
-spsolver.pathsFromStart;System.out.println("""res7: Stream[(streams.streamwksht.spsolver.Block, List[streams.streamwksht.spsolver.Move])] = """ + $show(res$7));$skip(18); val res$8 = 
+
+spsolver.pathsToGoal;System.out.println("""res7: Stream[(streams.streamwksht.spsolver.Block, List[streams.streamwksht.spsolver.Move])] = """ + $show(res$7));$skip(18); val res$8 = 
 spsolver.solution;System.out.println("""res8: List[streams.streamwksht.spsolver.Move] = """ + $show(res$8))}
+         
+                           
+              
+            
+                 
+                        
+
                
 
 }

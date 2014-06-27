@@ -19,7 +19,7 @@ class SPTerrain extends StringParserTerrain {
 }
 
 val spterrain = new SPTerrain()                   //> spterrain  : streams.streamwksht.SPTerrain = streams.streamwksht$$anonfun$ma
-                                                  //| in$1$SPTerrain$1@44655c8c
+                                                  //| in$1$SPTerrain$1@4a15d117
 
 spterrain.findChar('g',testvec)                   //> res0: streams.streamwksht.spterrain.Pos = Pos(-1,-1)
 val f = spterrain.terrainFunction(testvec)        //> f  : streams.streamwksht.spterrain.Pos => Boolean = <function1>
@@ -48,8 +48,10 @@ class SPSolver extends Solver with StringParserTerrain {
 
 
 
+
+
 val spsolver = new SPSolver()                     //> spsolver  : streams.streamwksht.SPSolver = streams.streamwksht$$anonfun$main
-                                                  //| $1$SPSolver$1@10c03c6
+                                                  //| $1$SPSolver$1@42cba8e1
 
 val startS = Stream( (spsolver.startBlock,List()) )
                                                   //> startS  : scala.collection.immutable.Stream[(streams.streamwksht.spsolver.Bl
@@ -58,27 +60,17 @@ spsolver.from(startS,Set(spsolver.startBlock))    //> res6: Stream[(streams.stre
                                                   //| psolver.Move])] = Stream((Block(Pos(0,0),Pos(0,0)),List()), ?)
                                          
 
-spsolver.pathsFromStart                           //> res7: Stream[(streams.streamwksht.spsolver.Block, List[streams.streamwksht.s
-                                                  //| psolver.Move])] = Stream((Block(Pos(0,0),Pos(0,0)),List()), ?)
-spsolver.solution                                 //> java.util.NoSuchElementException: head of empty stream
-                                                  //| 	at scala.collection.immutable.Stream$Empty$.head(Stream.scala:1028)
-                                                  //| 	at scala.collection.immutable.Stream$Empty$.head(Stream.scala:1026)
-                                                  //| 	at streams.Solver$class.solution(Solver.scala:128)
-                                                  //| 	at streams.streamwksht$$anonfun$main$1$SPSolver$1.solution$lzycompute(st
-                                                  //| reams.streamwksht.scala:35)
-                                                  //| 	at streams.streamwksht$$anonfun$main$1$SPSolver$1.solution(streams.strea
-                                                  //| mwksht.scala:35)
-                                                  //| 	at streams.streamwksht$$anonfun$main$1.apply$mcV$sp(streams.streamwksht.
-                                                  //| scala:50)
-                                                  //| 	at org.scalaide.worksheet.runtime.library.WorksheetSupport$$anonfun$$exe
-                                                  //| cute$1.apply$mcV$sp(WorksheetSupport.scala:76)
-                                                  //| 	at org.scalaide.worksheet.runtime.library.WorksheetSupport$.redirected(W
-                                                  //| orksheetSupport.scala:65)
-                                                  //| 	at org.scalaide.worksheet.runtime.library.WorksheetSupport$.$execute(Wor
-                                                  //| ksheetSupport.scala:75)
-                                                  //| 	at streams.streamwksht$.main(streams.streamwksht.scala:6)
-                                                  //| 	at streams.strea
-                                                  //| Output exceeds cutoff limit.
+
+spsolver.pathsToGoal                              //> res7: Stream[(streams.streamwksht.spsolver.Block, List[streams.streamwksht.s
+                                                  //| psolver.Move])] = Stream()
+spsolver.solution                                 //> res8: List[streams.streamwksht.spsolver.Move] = List()
+         
+                           
+              
+            
+                 
+                        
+
                
 
 }

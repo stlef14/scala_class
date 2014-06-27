@@ -12,7 +12,7 @@ trait Solver extends GameDef {
    */
   def done(b: Block): Boolean = {
     // we're done if the block stands up on the terminal position
-    if(b.b1==b.b2 && b.b1==goal) true else false
+    (b.b1==b.b2 && b.b1==goal)
   }
 
   /**
@@ -34,9 +34,8 @@ trait Solver extends GameDef {
   def neighborsWithHistory(b: Block, history: List[Move]): Stream[(Block, List[Move])] = {
     
     val legalNeighbors = b.legalNeighbors
-    
-    val curList = for(xs<-legalNeighbors) yield (xs._1,xs._2::history)
-    
+    val curList = for{xs<-legalNeighbors
+                     } yield (xs._1,xs._2::history)
     curList.toStream
   }
 
@@ -48,8 +47,9 @@ trait Solver extends GameDef {
   def newNeighborsOnly(neighbors: Stream[(Block, List[Move])],
                        explored: Set[Block]): Stream[(Block, List[Move])] = {
     
-    val newStream = for(xs<-neighbors if(!explored.contains(xs._1))) yield (xs)
-    
+    val newStream = for{
+             xs<-neighbors
+             if(!explored.contains(xs._1))} yield (xs)
     newStream.toStream
   }
 
@@ -112,7 +112,10 @@ trait Solver extends GameDef {
   lazy val pathsToGoal: Stream[(Block, List[Move])] = {
     
       val paths = pathsFromStart
-      for(xs<-paths if done(xs._1)) yield (xs)
+      for{
+        xs<-paths
+        if done(xs._1)
+        } yield (xs)
   }
 
   /**
@@ -125,6 +128,6 @@ trait Solver extends GameDef {
    */
   lazy val solution: List[Move] = {
     val pathssol = pathsToGoal
-    pathssol.head._2
+    if(pathssol.isEmpty) List() else pathssol.head._2
   }
 }

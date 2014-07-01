@@ -96,6 +96,12 @@ trait Solver extends GameDef {
   }
   
   
+  def from2(initial: Stream[(Block, List[Move])],
+           explored: Set[Block]): Stream[(Block, List[Move])] = {
+
+    initial.foldLeft(Stream())((st,xs)=>)
+    Stream()
+  }
   
   /**
    * The stream of all paths that begin at the starting block.

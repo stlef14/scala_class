@@ -1,0 +1,1 @@
+java -cp ..\dist\wordnet.jar;..\lib\algs4.jar;..\lib\stdlib.jar SAP C:\Users\slefrancois\Documents\WorkingDirectory\Personal\Projects\scala_class\Algo2\Wordnet\etc\digraph1.txt

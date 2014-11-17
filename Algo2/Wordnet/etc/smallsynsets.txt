@@ -1,0 +1,13 @@
+0,hood,(slang) a neighborhood  
+1,gang,the decade from 1530 to 1539  
+2,street,a terrorist organization formed in 1979 by a faction of the Popular Front for the Liberation of Palestine but disbanded in the 1980s when key members left to join a faction of al-Fatah  
+3,block,the decade from 1750 to 1759  
+4,association,the decade from 1760 to 1769  
+5,group attendance,the decade from 1770 to 1779
+6,gathering,(slang) a neighborhood  
+7,party,the decade from 1530 to 1539  
+8,flock,a terrorist organization formed in 1979 by a faction of the Popular Front for the Liberation of Palestine but disbanded in the 1980s when key members left to join a faction of al-Fatah  
+9,grouping,the decade from 1750 to 1759  
+10,team,the decade from 1760 to 1769  
+11,tag team,the decade from 1770 to 1779
+12,league,the decade from 1770 to 1779

@@ -1,0 +1,4555 @@
+
+C:\Users\slefrancois\Documents\WorkingDirectory\Personal\Projects\scala_class\Algo2\Wordnet\etc>java -cp ..\dist\wordnet.jar;..\lib\algs4.jar;..\lib\stdlib.jar Outcast C:\Users\slefrancois\Documents\WorkingDirectory\Personal\Projects\scala_class\Algo2\Wordnet\etc\synsets.txt C:\Users\slefrancois\Documents\WorkingDirectory\Personal\Projects\scala_class\Algo2\Wordnet\etc\hypernyms.txt C:\Users\slefrancois\Documents\WorkingDirectory\Personal\Projects\scala_class\Algo2\Wordnet\etc\outcast5.txt C:\Users\slefrancois\Documents\WorkingDirectory\Personal\Projects\scala_class\Algo2\Wordnet\etc\outcast8.txt C:\Users\slefrancois\Documents\WorkingDirectory\Personal\Projects\scala_class\Algo2\Wordnet\etc\outcast11.txt 
+Processing wordnet
+preparing edges
+checking if rooted
+checking if cycle
+Processing outcast
+Processing file:C:\Users\slefrancois\Documents\WorkingDirectory\Personal\Projects\scala_class\Algo2\Wordnet\etc\outcast5.txt
+Calculating distance:
+SAP.length
+v=68015 w=82086
+processAncestors
+v=49952 w=82086
+processAncestors
+v=46600 w=82086
+processAncestors
+v=46599 w=82086
+processAncestors
+v=28075 w=82086
+processAncestors
+Noun=horse Other=zebra dist=2
+Calculating distance:
+SAP.length
+v=68015 w=49573
+processAncestors
+v=68015 w=44686
+processAncestors
+v=68015 w=27909
+processAncestors
+v=68015 w=27900
+processAncestors
+v=68015 w=27899
+processAncestors
+v=68015 w=24084
+processAncestors
+v=68015 w=3214
+processAncestors
+v=49952 w=49573
+processAncestors
+v=49952 w=44686
+processAncestors
+v=49952 w=27909
+processAncestors
+v=49952 w=27900
+processAncestors
+v=49952 w=27899
+processAncestors
+v=49952 w=24084
+processAncestors
+v=49952 w=3214
+processAncestors
+v=46600 w=49573
+processAncestors
+v=46600 w=44686
+processAncestors
+v=46600 w=27909
+processAncestors
+v=46600 w=27900
+processAncestors
+v=46600 w=27899
+processAncestors
+v=46600 w=24084
+processAncestors
+v=46600 w=3214
+processAncestors
+v=46599 w=49573
+processAncestors
+v=46599 w=44686
+processAncestors
+v=46599 w=27909
+processAncestors
+v=46599 w=27900
+processAncestors
+v=46599 w=27899
+processAncestors
+v=46599 w=24084
+processAncestors
+v=46599 w=3214
+processAncestors
+v=28075 w=49573
+processAncestors
+v=28075 w=44686
+processAncestors
+v=28075 w=27909
+processAncestors
+v=28075 w=27900
+processAncestors
+v=28075 w=27899
+processAncestors
+v=28075 w=24084
+processAncestors
+v=28075 w=3214
+processAncestors
+Noun=horse Other=cat dist=7
+Calculating distance:
+SAP.length
+v=68015 w=23559
+processAncestors
+v=68015 w=23558
+processAncestors
+v=49952 w=23559
+processAncestors
+v=49952 w=23558
+processAncestors
+v=46600 w=23559
+processAncestors
+v=46600 w=23558
+processAncestors
+v=46599 w=23559
+processAncestors
+v=46599 w=23558
+processAncestors
+v=28075 w=23559
+processAncestors
+v=28075 w=23558
+processAncestors
+Noun=horse Other=bear dist=6
+Calculating distance:
+SAP.length
+v=68015 w=75058
+processAncestors
+v=68015 w=75057
+processAncestors
+v=68015 w=75056
+processAncestors
+v=68015 w=75055
+processAncestors
+v=68015 w=54006
+processAncestors
+v=68015 w=25020
+processAncestors
+v=49952 w=75058
+processAncestors
+v=49952 w=75057
+processAncestors
+v=49952 w=75056
+processAncestors
+v=49952 w=75055
+processAncestors
+v=49952 w=54006
+processAncestors
+v=49952 w=25020
+processAncestors
+v=46600 w=75058
+processAncestors
+v=46600 w=75057
+processAncestors
+v=46600 w=75056
+processAncestors
+v=46600 w=75055
+processAncestors
+v=46600 w=54006
+processAncestors
+v=46600 w=25020
+processAncestors
+v=46599 w=75058
+processAncestors
+v=46599 w=75057
+processAncestors
+v=46599 w=75056
+processAncestors
+v=46599 w=75055
+processAncestors
+v=46599 w=54006
+processAncestors
+v=46599 w=25020
+processAncestors
+v=28075 w=75058
+processAncestors
+v=28075 w=75057
+processAncestors
+v=28075 w=75056
+processAncestors
+v=28075 w=75055
+processAncestors
+v=28075 w=54006
+processAncestors
+v=28075 w=25020
+processAncestors
+Noun=horse Other=table dist=6
+noun::horse dist::21
+Calculating distance:
+SAP.length
+v=82086 w=68015
+processAncestors
+v=82086 w=49952
+processAncestors
+v=82086 w=46600
+processAncestors
+v=82086 w=46599
+processAncestors
+v=82086 w=28075
+processAncestors
+Noun=zebra Other=horse dist=2
+Calculating distance:
+SAP.length
+v=82086 w=49573
+processAncestors
+v=82086 w=44686
+processAncestors
+v=82086 w=27909
+processAncestors
+v=82086 w=27900
+processAncestors
+v=82086 w=27899
+processAncestors
+v=82086 w=24084
+processAncestors
+v=82086 w=3214
+processAncestors
+Noun=zebra Other=cat dist=7
+Calculating distance:
+SAP.length
+v=82086 w=23559
+processAncestors
+v=82086 w=23558
+processAncestors
+Noun=zebra Other=bear dist=6
+Calculating distance:
+SAP.length
+v=82086 w=75058
+processAncestors
+v=82086 w=75057
+processAncestors
+v=82086 w=75056
+processAncestors
+v=82086 w=75055
+processAncestors
+v=82086 w=54006
+processAncestors
+v=82086 w=25020
+processAncestors
+Noun=zebra Other=table dist=16
+noun::zebra dist::31
+Calculating distance:
+SAP.length
+v=49573 w=68015
+processAncestors
+v=49573 w=49952
+processAncestors
+v=49573 w=46600
+processAncestors
+v=49573 w=46599
+processAncestors
+v=49573 w=28075
+processAncestors
+v=44686 w=68015
+processAncestors
+v=44686 w=49952
+processAncestors
+v=44686 w=46600
+processAncestors
+v=44686 w=46599
+processAncestors
+v=44686 w=28075
+processAncestors
+v=27909 w=68015
+processAncestors
+v=27909 w=49952
+processAncestors
+v=27909 w=46600
+processAncestors
+v=27909 w=46599
+processAncestors
+v=27909 w=28075
+processAncestors
+v=27900 w=68015
+processAncestors
+v=27900 w=49952
+processAncestors
+v=27900 w=46600
+processAncestors
+v=27900 w=46599
+processAncestors
+v=27900 w=28075
+processAncestors
+v=27899 w=68015
+processAncestors
+v=27899 w=49952
+processAncestors
+v=27899 w=46600
+processAncestors
+v=27899 w=46599
+processAncestors
+v=27899 w=28075
+processAncestors
+v=24084 w=68015
+processAncestors
+v=24084 w=49952
+processAncestors
+v=24084 w=46600
+processAncestors
+v=24084 w=46599
+processAncestors
+v=24084 w=28075
+processAncestors
+v=3214 w=68015
+processAncestors
+v=3214 w=49952
+processAncestors
+v=3214 w=46600
+processAncestors
+v=3214 w=46599
+processAncestors
+v=3214 w=28075
+processAncestors
+Noun=cat Other=horse dist=7
+Calculating distance:
+SAP.length
+v=49573 w=82086
+processAncestors
+v=44686 w=82086
+processAncestors
+v=27909 w=82086
+processAncestors
+v=27900 w=82086
+processAncestors
+v=27899 w=82086
+processAncestors
+v=24084 w=82086
+processAncestors
+v=3214 w=82086
+processAncestors
+Noun=cat Other=zebra dist=7
+Calculating distance:
+SAP.length
+v=49573 w=23559
+processAncestors
+v=49573 w=23558
+processAncestors
+v=44686 w=23559
+processAncestors
+v=44686 w=23558
+processAncestors
+v=27909 w=23559
+processAncestors
+v=27909 w=23558
+processAncestors
+v=27900 w=23559
+processAncestors
+v=27900 w=23558
+processAncestors
+v=27899 w=23559
+processAncestors
+v=27899 w=23558
+processAncestors
+v=24084 w=23559
+processAncestors
+v=24084 w=23558
+processAncestors
+v=3214 w=23559
+processAncestors
+v=3214 w=23558
+processAncestors
+Noun=cat Other=bear dist=3
+Calculating distance:
+SAP.length
+v=49573 w=75058
+processAncestors
+v=49573 w=75057
+processAncestors
+v=49573 w=75056
+processAncestors
+v=49573 w=75055
+processAncestors
+v=49573 w=54006
+processAncestors
+v=49573 w=25020
+processAncestors
+v=44686 w=75058
+processAncestors
+v=44686 w=75057
+processAncestors
+v=44686 w=75056
+processAncestors
+v=44686 w=75055
+processAncestors
+v=44686 w=54006
+processAncestors
+v=44686 w=25020
+processAncestors
+v=27909 w=75058
+processAncestors
+v=27909 w=75057
+processAncestors
+v=27909 w=75056
+processAncestors
+v=27909 w=75055
+processAncestors
+v=27909 w=54006
+processAncestors
+v=27909 w=25020
+processAncestors
+v=27900 w=75058
+processAncestors
+v=27900 w=75057
+processAncestors
+v=27900 w=75056
+processAncestors
+v=27900 w=75055
+processAncestors
+v=27900 w=54006
+processAncestors
+v=27900 w=25020
+processAncestors
+v=27899 w=75058
+processAncestors
+v=27899 w=75057
+processAncestors
+v=27899 w=75056
+processAncestors
+v=27899 w=75055
+processAncestors
+v=27899 w=54006
+processAncestors
+v=27899 w=25020
+processAncestors
+v=24084 w=75058
+processAncestors
+v=24084 w=75057
+processAncestors
+v=24084 w=75056
+processAncestors
+v=24084 w=75055
+processAncestors
+v=24084 w=54006
+processAncestors
+v=24084 w=25020
+processAncestors
+v=3214 w=75058
+processAncestors
+v=3214 w=75057
+processAncestors
+v=3214 w=75056
+processAncestors
+v=3214 w=75055
+processAncestors
+v=3214 w=54006
+processAncestors
+v=3214 w=25020
+processAncestors
+Noun=cat Other=table dist=7
+noun::cat dist::24
+Calculating distance:
+SAP.length
+v=23559 w=68015
+processAncestors
+v=23559 w=49952
+processAncestors
+v=23559 w=46600
+processAncestors
+v=23559 w=46599
+processAncestors
+v=23559 w=28075
+processAncestors
+v=23558 w=68015
+processAncestors
+v=23558 w=49952
+processAncestors
+v=23558 w=46600
+processAncestors
+v=23558 w=46599
+processAncestors
+v=23558 w=28075
+processAncestors
+Noun=bear Other=horse dist=6
+Calculating distance:
+SAP.length
+v=23559 w=82086
+processAncestors
+v=23558 w=82086
+processAncestors
+Noun=bear Other=zebra dist=6
+Calculating distance:
+SAP.length
+v=23559 w=49573
+processAncestors
+v=23559 w=44686
+processAncestors
+v=23559 w=27909
+processAncestors
+v=23559 w=27900
+processAncestors
+v=23559 w=27899
+processAncestors
+v=23559 w=24084
+processAncestors
+v=23559 w=3214
+processAncestors
+v=23558 w=49573
+processAncestors
+v=23558 w=44686
+processAncestors
+v=23558 w=27909
+processAncestors
+v=23558 w=27900
+processAncestors
+v=23558 w=27899
+processAncestors
+v=23558 w=24084
+processAncestors
+v=23558 w=3214
+processAncestors
+Noun=bear Other=cat dist=3
+Calculating distance:
+SAP.length
+v=23559 w=75058
+processAncestors
+v=23559 w=75057
+processAncestors
+v=23559 w=75056
+processAncestors
+v=23559 w=75055
+processAncestors
+v=23559 w=54006
+processAncestors
+v=23559 w=25020
+processAncestors
+v=23558 w=75058
+processAncestors
+v=23558 w=75057
+processAncestors
+v=23558 w=75056
+processAncestors
+v=23558 w=75055
+processAncestors
+v=23558 w=54006
+processAncestors
+v=23558 w=25020
+processAncestors
+Noun=bear Other=table dist=10
+noun::bear dist::25
+Calculating distance:
+SAP.length
+v=75058 w=68015
+processAncestors
+v=75058 w=49952
+processAncestors
+v=75058 w=46600
+processAncestors
+v=75058 w=46599
+processAncestors
+v=75058 w=28075
+processAncestors
+v=75057 w=68015
+processAncestors
+v=75057 w=49952
+processAncestors
+v=75057 w=46600
+processAncestors
+v=75057 w=46599
+processAncestors
+v=75057 w=28075
+processAncestors
+v=75056 w=68015
+processAncestors
+v=75056 w=49952
+processAncestors
+v=75056 w=46600
+processAncestors
+v=75056 w=46599
+processAncestors
+v=75056 w=28075
+processAncestors
+v=75055 w=68015
+processAncestors
+v=75055 w=49952
+processAncestors
+v=75055 w=46600
+processAncestors
+v=75055 w=46599
+processAncestors
+v=75055 w=28075
+processAncestors
+v=54006 w=68015
+processAncestors
+v=54006 w=49952
+processAncestors
+v=54006 w=46600
+processAncestors
+v=54006 w=46599
+processAncestors
+v=54006 w=28075
+processAncestors
+v=25020 w=68015
+processAncestors
+v=25020 w=49952
+processAncestors
+v=25020 w=46600
+processAncestors
+v=25020 w=46599
+processAncestors
+v=25020 w=28075
+processAncestors
+Noun=table Other=horse dist=6
+Calculating distance:
+SAP.length
+v=75058 w=82086
+processAncestors
+v=75057 w=82086
+processAncestors
+v=75056 w=82086
+processAncestors
+v=75055 w=82086
+processAncestors
+v=54006 w=82086
+processAncestors
+v=25020 w=82086
+processAncestors
+Noun=table Other=zebra dist=16
+Calculating distance:
+SAP.length
+v=75058 w=49573
+processAncestors
+v=75058 w=44686
+processAncestors
+v=75058 w=27909
+processAncestors
+v=75058 w=27900
+processAncestors
+v=75058 w=27899
+processAncestors
+v=75058 w=24084
+processAncestors
+v=75058 w=3214
+processAncestors
+v=75057 w=49573
+processAncestors
+v=75057 w=44686
+processAncestors
+v=75057 w=27909
+processAncestors
+v=75057 w=27900
+processAncestors
+v=75057 w=27899
+processAncestors
+v=75057 w=24084
+processAncestors
+v=75057 w=3214
+processAncestors
+v=75056 w=49573
+processAncestors
+v=75056 w=44686
+processAncestors
+v=75056 w=27909
+processAncestors
+v=75056 w=27900
+processAncestors
+v=75056 w=27899
+processAncestors
+v=75056 w=24084
+processAncestors
+v=75056 w=3214
+processAncestors
+v=75055 w=49573
+processAncestors
+v=75055 w=44686
+processAncestors
+v=75055 w=27909
+processAncestors
+v=75055 w=27900
+processAncestors
+v=75055 w=27899
+processAncestors
+v=75055 w=24084
+processAncestors
+v=75055 w=3214
+processAncestors
+v=54006 w=49573
+processAncestors
+v=54006 w=44686
+processAncestors
+v=54006 w=27909
+processAncestors
+v=54006 w=27900
+processAncestors
+v=54006 w=27899
+processAncestors
+v=54006 w=24084
+processAncestors
+v=54006 w=3214
+processAncestors
+v=25020 w=49573
+processAncestors
+v=25020 w=44686
+processAncestors
+v=25020 w=27909
+processAncestors
+v=25020 w=27900
+processAncestors
+v=25020 w=27899
+processAncestors
+v=25020 w=24084
+processAncestors
+v=25020 w=3214
+processAncestors
+Noun=table Other=cat dist=7
+Calculating distance:
+SAP.length
+v=75058 w=23559
+processAncestors
+v=75058 w=23558
+processAncestors
+v=75057 w=23559
+processAncestors
+v=75057 w=23558
+processAncestors
+v=75056 w=23559
+processAncestors
+v=75056 w=23558
+processAncestors
+v=75055 w=23559
+processAncestors
+v=75055 w=23558
+processAncestors
+v=54006 w=23559
+processAncestors
+v=54006 w=23558
+processAncestors
+v=25020 w=23559
+processAncestors
+v=25020 w=23558
+processAncestors
+Noun=table Other=bear dist=10
+noun::table dist::39
+C:\Users\slefrancois\Documents\WorkingDirectory\Personal\Projects\scala_class\Algo2\Wordnet\etc\outcast5.txt: table
+Processing file:C:\Users\slefrancois\Documents\WorkingDirectory\Personal\Projects\scala_class\Algo2\Wordnet\etc\outcast8.txt
+Calculating distance:
+SAP.length
+v=80366 w=71371
+processAncestors
+v=80366 w=62004
+processAncestors
+v=80257 w=71371
+processAncestors
+v=80257 w=62004
+processAncestors
+v=80256 w=71371
+processAncestors
+v=80256 w=62004
+processAncestors
+v=80255 w=71371
+processAncestors
+v=80255 w=62004
+processAncestors
+v=78942 w=71371
+processAncestors
+v=78942 w=62004
+processAncestors
+v=25113 w=71371
+processAncestors
+v=25113 w=62004
+processAncestors
+Noun=water Other=soda dist=4
+Calculating distance:
+SAP.length
+v=80366 w=68642
+processAncestors
+v=80366 w=50652
+processAncestors
+v=80366 w=23644
+processAncestors
+v=80366 w=23643
+processAncestors
+v=80366 w=23642
+processAncestors
+v=80366 w=23641
+processAncestors
+v=80366 w=23640
+processAncestors
+v=80366 w=23639
+processAncestors
+v=80257 w=68642
+processAncestors
+v=80257 w=50652
+processAncestors
+v=80257 w=23644
+processAncestors
+v=80257 w=23643
+processAncestors
+v=80257 w=23642
+processAncestors
+v=80257 w=23641
+processAncestors
+v=80257 w=23640
+processAncestors
+v=80257 w=23639
+processAncestors
+v=80256 w=68642
+processAncestors
+v=80256 w=50652
+processAncestors
+v=80256 w=23644
+processAncestors
+v=80256 w=23643
+processAncestors
+v=80256 w=23642
+processAncestors
+v=80256 w=23641
+processAncestors
+v=80256 w=23640
+processAncestors
+v=80256 w=23639
+processAncestors
+v=80255 w=68642
+processAncestors
+v=80255 w=50652
+processAncestors
+v=80255 w=23644
+processAncestors
+v=80255 w=23643
+processAncestors
+v=80255 w=23642
+processAncestors
+v=80255 w=23641
+processAncestors
+v=80255 w=23640
+processAncestors
+v=80255 w=23639
+processAncestors
+v=78942 w=68642
+processAncestors
+v=78942 w=50652
+processAncestors
+v=78942 w=23644
+processAncestors
+v=78942 w=23643
+processAncestors
+v=78942 w=23642
+processAncestors
+v=78942 w=23641
+processAncestors
+v=78942 w=23640
+processAncestors
+v=78942 w=23639
+processAncestors
+v=25113 w=68642
+processAncestors
+v=25113 w=50652
+processAncestors
+v=25113 w=23644
+processAncestors
+v=25113 w=23643
+processAncestors
+v=25113 w=23642
+processAncestors
+v=25113 w=23641
+processAncestors
+v=25113 w=23640
+processAncestors
+v=25113 w=23639
+processAncestors
+Noun=water Other=bed dist=3
+Calculating distance:
+SAP.length
+v=80366 w=58049
+processAncestors
+v=80257 w=58049
+processAncestors
+v=80256 w=58049
+processAncestors
+v=80255 w=58049
+processAncestors
+v=78942 w=58049
+processAncestors
+v=25113 w=58049
+processAncestors
+Noun=water Other=orange_juice dist=4
+Calculating distance:
+SAP.length
+v=80366 w=54447
+processAncestors
+v=80366 w=54446
+processAncestors
+v=80366 w=54445
+processAncestors
+v=80257 w=54447
+processAncestors
+v=80257 w=54446
+processAncestors
+v=80257 w=54445
+processAncestors
+v=80256 w=54447
+processAncestors
+v=80256 w=54446
+processAncestors
+v=80256 w=54445
+processAncestors
+v=80255 w=54447
+processAncestors
+v=80255 w=54446
+processAncestors
+v=80255 w=54445
+processAncestors
+v=78942 w=54447
+processAncestors
+v=78942 w=54446
+processAncestors
+v=78942 w=54445
+processAncestors
+v=25113 w=54447
+processAncestors
+v=25113 w=54446
+processAncestors
+v=25113 w=54445
+processAncestors
+Noun=water Other=milk dist=3
+Calculating distance:
+SAP.length
+v=80366 w=21249
+processAncestors
+v=80257 w=21249
+processAncestors
+v=80256 w=21249
+processAncestors
+v=80255 w=21249
+processAncestors
+v=78942 w=21249
+processAncestors
+v=25113 w=21249
+processAncestors
+Noun=water Other=apple_juice dist=4
+Calculating distance:
+SAP.length
+v=80366 w=75521
+processAncestors
+v=80366 w=75520
+processAncestors
+v=80366 w=75519
+processAncestors
+v=80366 w=75518
+processAncestors
+v=80366 w=75517
+processAncestors
+v=80257 w=75521
+processAncestors
+v=80257 w=75520
+processAncestors
+v=80257 w=75519
+processAncestors
+v=80257 w=75518
+processAncestors
+v=80257 w=75517
+processAncestors
+v=80256 w=75521
+processAncestors
+v=80256 w=75520
+processAncestors
+v=80256 w=75519
+processAncestors
+v=80256 w=75518
+processAncestors
+v=80256 w=75517
+processAncestors
+v=80255 w=75521
+processAncestors
+v=80255 w=75520
+processAncestors
+v=80255 w=75519
+processAncestors
+v=80255 w=75518
+processAncestors
+v=80255 w=75517
+processAncestors
+v=78942 w=75521
+processAncestors
+v=78942 w=75520
+processAncestors
+v=78942 w=75519
+processAncestors
+v=78942 w=75518
+processAncestors
+v=78942 w=75517
+processAncestors
+v=25113 w=75521
+processAncestors
+v=25113 w=75520
+processAncestors
+v=25113 w=75519
+processAncestors
+v=25113 w=75518
+processAncestors
+v=25113 w=75517
+processAncestors
+Noun=water Other=tea dist=3
+Calculating distance:
+SAP.length
+v=80366 w=30233
+processAncestors
+v=80366 w=30231
+processAncestors
+v=80366 w=30230
+processAncestors
+v=80366 w=29103
+processAncestors
+v=80257 w=30233
+processAncestors
+v=80257 w=30231
+processAncestors
+v=80257 w=30230
+processAncestors
+v=80257 w=29103
+processAncestors
+v=80256 w=30233
+processAncestors
+v=80256 w=30231
+processAncestors
+v=80256 w=30230
+processAncestors
+v=80256 w=29103
+processAncestors
+v=80255 w=30233
+processAncestors
+v=80255 w=30231
+processAncestors
+v=80255 w=30230
+processAncestors
+v=80255 w=29103
+processAncestors
+v=78942 w=30233
+processAncestors
+v=78942 w=30231
+processAncestors
+v=78942 w=30230
+processAncestors
+v=78942 w=29103
+processAncestors
+v=25113 w=30233
+processAncestors
+v=25113 w=30231
+processAncestors
+v=25113 w=30230
+processAncestors
+v=25113 w=29103
+processAncestors
+Noun=water Other=coffee dist=3
+noun::water dist::24
+Calculating distance:
+SAP.length
+v=71371 w=80366
+processAncestors
+v=71371 w=80257
+processAncestors
+v=71371 w=80256
+processAncestors
+v=71371 w=80255
+processAncestors
+v=71371 w=78942
+processAncestors
+v=71371 w=25113
+processAncestors
+v=62004 w=80366
+processAncestors
+v=62004 w=80257
+processAncestors
+v=62004 w=80256
+processAncestors
+v=62004 w=80255
+processAncestors
+v=62004 w=78942
+processAncestors
+v=62004 w=25113
+processAncestors
+Noun=soda Other=water dist=4
+Calculating distance:
+SAP.length
+v=71371 w=68642
+processAncestors
+v=71371 w=50652
+processAncestors
+v=71371 w=23644
+processAncestors
+v=71371 w=23643
+processAncestors
+v=71371 w=23642
+processAncestors
+v=71371 w=23641
+processAncestors
+v=71371 w=23640
+processAncestors
+v=71371 w=23639
+processAncestors
+v=62004 w=68642
+processAncestors
+v=62004 w=50652
+processAncestors
+v=62004 w=23644
+processAncestors
+v=62004 w=23643
+processAncestors
+v=62004 w=23642
+processAncestors
+v=62004 w=23641
+processAncestors
+v=62004 w=23640
+processAncestors
+v=62004 w=23639
+processAncestors
+Noun=soda Other=bed dist=11
+Calculating distance:
+SAP.length
+v=71371 w=58049
+processAncestors
+v=62004 w=58049
+processAncestors
+Noun=soda Other=orange_juice dist=4
+Calculating distance:
+SAP.length
+v=71371 w=54447
+processAncestors
+v=71371 w=54446
+processAncestors
+v=71371 w=54445
+processAncestors
+v=62004 w=54447
+processAncestors
+v=62004 w=54446
+processAncestors
+v=62004 w=54445
+processAncestors
+Noun=soda Other=milk dist=3
+Calculating distance:
+SAP.length
+v=71371 w=21249
+processAncestors
+v=62004 w=21249
+processAncestors
+Noun=soda Other=apple_juice dist=4
+Calculating distance:
+SAP.length
+v=71371 w=75521
+processAncestors
+v=71371 w=75520
+processAncestors
+v=71371 w=75519
+processAncestors
+v=71371 w=75518
+processAncestors
+v=71371 w=75517
+processAncestors
+v=62004 w=75521
+processAncestors
+v=62004 w=75520
+processAncestors
+v=62004 w=75519
+processAncestors
+v=62004 w=75518
+processAncestors
+v=62004 w=75517
+processAncestors
+Noun=soda Other=tea dist=3
+Calculating distance:
+SAP.length
+v=71371 w=30233
+processAncestors
+v=71371 w=30231
+processAncestors
+v=71371 w=30230
+processAncestors
+v=71371 w=29103
+processAncestors
+v=62004 w=30233
+processAncestors
+v=62004 w=30231
+processAncestors
+v=62004 w=30230
+processAncestors
+v=62004 w=29103
+processAncestors
+Noun=soda Other=coffee dist=3
+noun::soda dist::32
+Calculating distance:
+SAP.length
+v=68642 w=80366
+processAncestors
+v=68642 w=80257
+processAncestors
+v=68642 w=80256
+processAncestors
+v=68642 w=80255
+processAncestors
+v=68642 w=78942
+processAncestors
+v=68642 w=25113
+processAncestors
+v=50652 w=80366
+processAncestors
+v=50652 w=80257
+processAncestors
+v=50652 w=80256
+processAncestors
+v=50652 w=80255
+processAncestors
+v=50652 w=78942
+processAncestors
+v=50652 w=25113
+processAncestors
+v=23644 w=80366
+processAncestors
+v=23644 w=80257
+processAncestors
+v=23644 w=80256
+processAncestors
+v=23644 w=80255
+processAncestors
+v=23644 w=78942
+processAncestors
+v=23644 w=25113
+processAncestors
+v=23643 w=80366
+processAncestors
+v=23643 w=80257
+processAncestors
+v=23643 w=80256
+processAncestors
+v=23643 w=80255
+processAncestors
+v=23643 w=78942
+processAncestors
+v=23643 w=25113
+processAncestors
+v=23642 w=80366
+processAncestors
+v=23642 w=80257
+processAncestors
+v=23642 w=80256
+processAncestors
+v=23642 w=80255
+processAncestors
+v=23642 w=78942
+processAncestors
+v=23642 w=25113
+processAncestors
+v=23641 w=80366
+processAncestors
+v=23641 w=80257
+processAncestors
+v=23641 w=80256
+processAncestors
+v=23641 w=80255
+processAncestors
+v=23641 w=78942
+processAncestors
+v=23641 w=25113
+processAncestors
+v=23640 w=80366
+processAncestors
+v=23640 w=80257
+processAncestors
+v=23640 w=80256
+processAncestors
+v=23640 w=80255
+processAncestors
+v=23640 w=78942
+processAncestors
+v=23640 w=25113
+processAncestors
+v=23639 w=80366
+processAncestors
+v=23639 w=80257
+processAncestors
+v=23639 w=80256
+processAncestors
+v=23639 w=80255
+processAncestors
+v=23639 w=78942
+processAncestors
+v=23639 w=25113
+processAncestors
+Noun=bed Other=water dist=3
+Calculating distance:
+SAP.length
+v=68642 w=71371
+processAncestors
+v=68642 w=62004
+processAncestors
+v=50652 w=71371
+processAncestors
+v=50652 w=62004
+processAncestors
+v=23644 w=71371
+processAncestors
+v=23644 w=62004
+processAncestors
+v=23643 w=71371
+processAncestors
+v=23643 w=62004
+processAncestors
+v=23642 w=71371
+processAncestors
+v=23642 w=62004
+processAncestors
+v=23641 w=71371
+processAncestors
+v=23641 w=62004
+processAncestors
+v=23640 w=71371
+processAncestors
+v=23640 w=62004
+processAncestors
+v=23639 w=71371
+processAncestors
+v=23639 w=62004
+processAncestors
+Noun=bed Other=soda dist=11
+Calculating distance:
+SAP.length
+v=68642 w=58049
+processAncestors
+v=50652 w=58049
+processAncestors
+v=23644 w=58049
+processAncestors
+v=23643 w=58049
+processAncestors
+v=23642 w=58049
+processAncestors
+v=23641 w=58049
+processAncestors
+v=23640 w=58049
+processAncestors
+v=23639 w=58049
+processAncestors
+Noun=bed Other=orange_juice dist=11
+Calculating distance:
+SAP.length
+v=68642 w=54447
+processAncestors
+v=68642 w=54446
+processAncestors
+v=68642 w=54445
+processAncestors
+v=50652 w=54447
+processAncestors
+v=50652 w=54446
+processAncestors
+v=50652 w=54445
+processAncestors
+v=23644 w=54447
+processAncestors
+v=23644 w=54446
+processAncestors
+v=23644 w=54445
+processAncestors
+v=23643 w=54447
+processAncestors
+v=23643 w=54446
+processAncestors
+v=23643 w=54445
+processAncestors
+v=23642 w=54447
+processAncestors
+v=23642 w=54446
+processAncestors
+v=23642 w=54445
+processAncestors
+v=23641 w=54447
+processAncestors
+v=23641 w=54446
+processAncestors
+v=23641 w=54445
+processAncestors
+v=23640 w=54447
+processAncestors
+v=23640 w=54446
+processAncestors
+v=23640 w=54445
+processAncestors
+v=23639 w=54447
+processAncestors
+v=23639 w=54446
+processAncestors
+v=23639 w=54445
+processAncestors
+Noun=bed Other=milk dist=9
+Calculating distance:
+SAP.length
+v=68642 w=21249
+processAncestors
+v=50652 w=21249
+processAncestors
+v=23644 w=21249
+processAncestors
+v=23643 w=21249
+processAncestors
+v=23642 w=21249
+processAncestors
+v=23641 w=21249
+processAncestors
+v=23640 w=21249
+processAncestors
+v=23639 w=21249
+processAncestors
+Noun=bed Other=apple_juice dist=11
+Calculating distance:
+SAP.length
+v=68642 w=75521
+processAncestors
+v=68642 w=75520
+processAncestors
+v=68642 w=75519
+processAncestors
+v=68642 w=75518
+processAncestors
+v=68642 w=75517
+processAncestors
+v=50652 w=75521
+processAncestors
+v=50652 w=75520
+processAncestors
+v=50652 w=75519
+processAncestors
+v=50652 w=75518
+processAncestors
+v=50652 w=75517
+processAncestors
+v=23644 w=75521
+processAncestors
+v=23644 w=75520
+processAncestors
+v=23644 w=75519
+processAncestors
+v=23644 w=75518
+processAncestors
+v=23644 w=75517
+processAncestors
+v=23643 w=75521
+processAncestors
+v=23643 w=75520
+processAncestors
+v=23643 w=75519
+processAncestors
+v=23643 w=75518
+processAncestors
+v=23643 w=75517
+processAncestors
+v=23642 w=75521
+processAncestors
+v=23642 w=75520
+processAncestors
+v=23642 w=75519
+processAncestors
+v=23642 w=75518
+processAncestors
+v=23642 w=75517
+processAncestors
+v=23641 w=75521
+processAncestors
+v=23641 w=75520
+processAncestors
+v=23641 w=75519
+processAncestors
+v=23641 w=75518
+processAncestors
+v=23641 w=75517
+processAncestors
+v=23640 w=75521
+processAncestors
+v=23640 w=75520
+processAncestors
+v=23640 w=75519
+processAncestors
+v=23640 w=75518
+processAncestors
+v=23640 w=75517
+processAncestors
+v=23639 w=75521
+processAncestors
+v=23639 w=75520
+processAncestors
+v=23639 w=75519
+processAncestors
+v=23639 w=75518
+processAncestors
+v=23639 w=75517
+processAncestors
+Noun=bed Other=tea dist=9
+Calculating distance:
+SAP.length
+v=68642 w=30233
+processAncestors
+v=68642 w=30231
+processAncestors
+v=68642 w=30230
+processAncestors
+v=68642 w=29103
+processAncestors
+v=50652 w=30233
+processAncestors
+v=50652 w=30231
+processAncestors
+v=50652 w=30230
+processAncestors
+v=50652 w=29103
+processAncestors
+v=23644 w=30233
+processAncestors
+v=23644 w=30231
+processAncestors
+v=23644 w=30230
+processAncestors
+v=23644 w=29103
+processAncestors
+v=23643 w=30233
+processAncestors
+v=23643 w=30231
+processAncestors
+v=23643 w=30230
+processAncestors
+v=23643 w=29103
+processAncestors
+v=23642 w=30233
+processAncestors
+v=23642 w=30231
+processAncestors
+v=23642 w=30230
+processAncestors
+v=23642 w=29103
+processAncestors
+v=23641 w=30233
+processAncestors
+v=23641 w=30231
+processAncestors
+v=23641 w=30230
+processAncestors
+v=23641 w=29103
+processAncestors
+v=23640 w=30233
+processAncestors
+v=23640 w=30231
+processAncestors
+v=23640 w=30230
+processAncestors
+v=23640 w=29103
+processAncestors
+v=23639 w=30233
+processAncestors
+v=23639 w=30231
+processAncestors
+v=23639 w=30230
+processAncestors
+v=23639 w=29103
+processAncestors
+Noun=bed Other=coffee dist=9
+noun::bed dist::63
+Calculating distance:
+SAP.length
+v=58049 w=80366
+processAncestors
+v=58049 w=80257
+processAncestors
+v=58049 w=80256
+processAncestors
+v=58049 w=80255
+processAncestors
+v=58049 w=78942
+processAncestors
+v=58049 w=25113
+processAncestors
+Noun=orange_juice Other=water dist=4
+Calculating distance:
+SAP.length
+v=58049 w=71371
+processAncestors
+v=58049 w=62004
+processAncestors
+Noun=orange_juice Other=soda dist=4
+Calculating distance:
+SAP.length
+v=58049 w=68642
+processAncestors
+v=58049 w=50652
+processAncestors
+v=58049 w=23644
+processAncestors
+v=58049 w=23643
+processAncestors
+v=58049 w=23642
+processAncestors
+v=58049 w=23641
+processAncestors
+v=58049 w=23640
+processAncestors
+v=58049 w=23639
+processAncestors
+Noun=orange_juice Other=bed dist=11
+Calculating distance:
+SAP.length
+v=58049 w=54447
+processAncestors
+v=58049 w=54446
+processAncestors
+v=58049 w=54445
+processAncestors
+Noun=orange_juice Other=milk dist=3
+Calculating distance:
+SAP.length
+v=58049 w=21249
+processAncestors
+Noun=orange_juice Other=apple_juice dist=2
+Calculating distance:
+SAP.length
+v=58049 w=75521
+processAncestors
+v=58049 w=75520
+processAncestors
+v=58049 w=75519
+processAncestors
+v=58049 w=75518
+processAncestors
+v=58049 w=75517
+processAncestors
+Noun=orange_juice Other=tea dist=3
+Calculating distance:
+SAP.length
+v=58049 w=30233
+processAncestors
+v=58049 w=30231
+processAncestors
+v=58049 w=30230
+processAncestors
+v=58049 w=29103
+processAncestors
+Noun=orange_juice Other=coffee dist=3
+noun::orange_juice dist::30
+Calculating distance:
+SAP.length
+v=54447 w=80366
+processAncestors
+v=54447 w=80257
+processAncestors
+v=54447 w=80256
+processAncestors
+v=54447 w=80255
+processAncestors
+v=54447 w=78942
+processAncestors
+v=54447 w=25113
+processAncestors
+v=54446 w=80366
+processAncestors
+v=54446 w=80257
+processAncestors
+v=54446 w=80256
+processAncestors
+v=54446 w=80255
+processAncestors
+v=54446 w=78942
+processAncestors
+v=54446 w=25113
+processAncestors
+v=54445 w=80366
+processAncestors
+v=54445 w=80257
+processAncestors
+v=54445 w=80256
+processAncestors
+v=54445 w=80255
+processAncestors
+v=54445 w=78942
+processAncestors
+v=54445 w=25113
+processAncestors
+Noun=milk Other=water dist=3
+Calculating distance:
+SAP.length
+v=54447 w=71371
+processAncestors
+v=54447 w=62004
+processAncestors
+v=54446 w=71371
+processAncestors
+v=54446 w=62004
+processAncestors
+v=54445 w=71371
+processAncestors
+v=54445 w=62004
+processAncestors
+Noun=milk Other=soda dist=3
+Calculating distance:
+SAP.length
+v=54447 w=68642
+processAncestors
+v=54447 w=50652
+processAncestors
+v=54447 w=23644
+processAncestors
+v=54447 w=23643
+processAncestors
+v=54447 w=23642
+processAncestors
+v=54447 w=23641
+processAncestors
+v=54447 w=23640
+processAncestors
+v=54447 w=23639
+processAncestors
+v=54446 w=68642
+processAncestors
+v=54446 w=50652
+processAncestors
+v=54446 w=23644
+processAncestors
+v=54446 w=23643
+processAncestors
+v=54446 w=23642
+processAncestors
+v=54446 w=23641
+processAncestors
+v=54446 w=23640
+processAncestors
+v=54446 w=23639
+processAncestors
+v=54445 w=68642
+processAncestors
+v=54445 w=50652
+processAncestors
+v=54445 w=23644
+processAncestors
+v=54445 w=23643
+processAncestors
+v=54445 w=23642
+processAncestors
+v=54445 w=23641
+processAncestors
+v=54445 w=23640
+processAncestors
+v=54445 w=23639
+processAncestors
+Noun=milk Other=bed dist=9
+Calculating distance:
+SAP.length
+v=54447 w=58049
+processAncestors
+v=54446 w=58049
+processAncestors
+v=54445 w=58049
+processAncestors
+Noun=milk Other=orange_juice dist=3
+Calculating distance:
+SAP.length
+v=54447 w=21249
+processAncestors
+v=54446 w=21249
+processAncestors
+v=54445 w=21249
+processAncestors
+Noun=milk Other=apple_juice dist=3
+Calculating distance:
+SAP.length
+v=54447 w=75521
+processAncestors
+v=54447 w=75520
+processAncestors
+v=54447 w=75519
+processAncestors
+v=54447 w=75518
+processAncestors
+v=54447 w=75517
+processAncestors
+v=54446 w=75521
+processAncestors
+v=54446 w=75520
+processAncestors
+v=54446 w=75519
+processAncestors
+v=54446 w=75518
+processAncestors
+v=54446 w=75517
+processAncestors
+v=54445 w=75521
+processAncestors
+v=54445 w=75520
+processAncestors
+v=54445 w=75519
+processAncestors
+v=54445 w=75518
+processAncestors
+v=54445 w=75517
+processAncestors
+Noun=milk Other=tea dist=2
+Calculating distance:
+SAP.length
+v=54447 w=30233
+processAncestors
+v=54447 w=30231
+processAncestors
+v=54447 w=30230
+processAncestors
+v=54447 w=29103
+processAncestors
+v=54446 w=30233
+processAncestors
+v=54446 w=30231
+processAncestors
+v=54446 w=30230
+processAncestors
+v=54446 w=29103
+processAncestors
+v=54445 w=30233
+processAncestors
+v=54445 w=30231
+processAncestors
+v=54445 w=30230
+processAncestors
+v=54445 w=29103
+processAncestors
+Noun=milk Other=coffee dist=2
+noun::milk dist::25
+Calculating distance:
+SAP.length
+v=21249 w=80366
+processAncestors
+v=21249 w=80257
+processAncestors
+v=21249 w=80256
+processAncestors
+v=21249 w=80255
+processAncestors
+v=21249 w=78942
+processAncestors
+v=21249 w=25113
+processAncestors
+Noun=apple_juice Other=water dist=4
+Calculating distance:
+SAP.length
+v=21249 w=71371
+processAncestors
+v=21249 w=62004
+processAncestors
+Noun=apple_juice Other=soda dist=4
+Calculating distance:
+SAP.length
+v=21249 w=68642
+processAncestors
+v=21249 w=50652
+processAncestors
+v=21249 w=23644
+processAncestors
+v=21249 w=23643
+processAncestors
+v=21249 w=23642
+processAncestors
+v=21249 w=23641
+processAncestors
+v=21249 w=23640
+processAncestors
+v=21249 w=23639
+processAncestors
+Noun=apple_juice Other=bed dist=11
+Calculating distance:
+SAP.length
+v=21249 w=58049
+processAncestors
+Noun=apple_juice Other=orange_juice dist=2
+Calculating distance:
+SAP.length
+v=21249 w=54447
+processAncestors
+v=21249 w=54446
+processAncestors
+v=21249 w=54445
+processAncestors
+Noun=apple_juice Other=milk dist=3
+Calculating distance:
+SAP.length
+v=21249 w=75521
+processAncestors
+v=21249 w=75520
+processAncestors
+v=21249 w=75519
+processAncestors
+v=21249 w=75518
+processAncestors
+v=21249 w=75517
+processAncestors
+Noun=apple_juice Other=tea dist=3
+Calculating distance:
+SAP.length
+v=21249 w=30233
+processAncestors
+v=21249 w=30231
+processAncestors
+v=21249 w=30230
+processAncestors
+v=21249 w=29103
+processAncestors
+Noun=apple_juice Other=coffee dist=3
+noun::apple_juice dist::30
+Calculating distance:
+SAP.length
+v=75521 w=80366
+processAncestors
+v=75521 w=80257
+processAncestors
+v=75521 w=80256
+processAncestors
+v=75521 w=80255
+processAncestors
+v=75521 w=78942
+processAncestors
+v=75521 w=25113
+processAncestors
+v=75520 w=80366
+processAncestors
+v=75520 w=80257
+processAncestors
+v=75520 w=80256
+processAncestors
+v=75520 w=80255
+processAncestors
+v=75520 w=78942
+processAncestors
+v=75520 w=25113
+processAncestors
+v=75519 w=80366
+processAncestors
+v=75519 w=80257
+processAncestors
+v=75519 w=80256
+processAncestors
+v=75519 w=80255
+processAncestors
+v=75519 w=78942
+processAncestors
+v=75519 w=25113
+processAncestors
+v=75518 w=80366
+processAncestors
+v=75518 w=80257
+processAncestors
+v=75518 w=80256
+processAncestors
+v=75518 w=80255
+processAncestors
+v=75518 w=78942
+processAncestors
+v=75518 w=25113
+processAncestors
+v=75517 w=80366
+processAncestors
+v=75517 w=80257
+processAncestors
+v=75517 w=80256
+processAncestors
+v=75517 w=80255
+processAncestors
+v=75517 w=78942
+processAncestors
+v=75517 w=25113
+processAncestors
+Noun=tea Other=water dist=3
+Calculating distance:
+SAP.length
+v=75521 w=71371
+processAncestors
+v=75521 w=62004
+processAncestors
+v=75520 w=71371
+processAncestors
+v=75520 w=62004
+processAncestors
+v=75519 w=71371
+processAncestors
+v=75519 w=62004
+processAncestors
+v=75518 w=71371
+processAncestors
+v=75518 w=62004
+processAncestors
+v=75517 w=71371
+processAncestors
+v=75517 w=62004
+processAncestors
+Noun=tea Other=soda dist=3
+Calculating distance:
+SAP.length
+v=75521 w=68642
+processAncestors
+v=75521 w=50652
+processAncestors
+v=75521 w=23644
+processAncestors
+v=75521 w=23643
+processAncestors
+v=75521 w=23642
+processAncestors
+v=75521 w=23641
+processAncestors
+v=75521 w=23640
+processAncestors
+v=75521 w=23639
+processAncestors
+v=75520 w=68642
+processAncestors
+v=75520 w=50652
+processAncestors
+v=75520 w=23644
+processAncestors
+v=75520 w=23643
+processAncestors
+v=75520 w=23642
+processAncestors
+v=75520 w=23641
+processAncestors
+v=75520 w=23640
+processAncestors
+v=75520 w=23639
+processAncestors
+v=75519 w=68642
+processAncestors
+v=75519 w=50652
+processAncestors
+v=75519 w=23644
+processAncestors
+v=75519 w=23643
+processAncestors
+v=75519 w=23642
+processAncestors
+v=75519 w=23641
+processAncestors
+v=75519 w=23640
+processAncestors
+v=75519 w=23639
+processAncestors
+v=75518 w=68642
+processAncestors
+v=75518 w=50652
+processAncestors
+v=75518 w=23644
+processAncestors
+v=75518 w=23643
+processAncestors
+v=75518 w=23642
+processAncestors
+v=75518 w=23641
+processAncestors
+v=75518 w=23640
+processAncestors
+v=75518 w=23639
+processAncestors
+v=75517 w=68642
+processAncestors
+v=75517 w=50652
+processAncestors
+v=75517 w=23644
+processAncestors
+v=75517 w=23643
+processAncestors
+v=75517 w=23642
+processAncestors
+v=75517 w=23641
+processAncestors
+v=75517 w=23640
+processAncestors
+v=75517 w=23639
+processAncestors
+Noun=tea Other=bed dist=9
+Calculating distance:
+SAP.length
+v=75521 w=58049
+processAncestors
+v=75520 w=58049
+processAncestors
+v=75519 w=58049
+processAncestors
+v=75518 w=58049
+processAncestors
+v=75517 w=58049
+processAncestors
+Noun=tea Other=orange_juice dist=3
+Calculating distance:
+SAP.length
+v=75521 w=54447
+processAncestors
+v=75521 w=54446
+processAncestors
+v=75521 w=54445
+processAncestors
+v=75520 w=54447
+processAncestors
+v=75520 w=54446
+processAncestors
+v=75520 w=54445
+processAncestors
+v=75519 w=54447
+processAncestors
+v=75519 w=54446
+processAncestors
+v=75519 w=54445
+processAncestors
+v=75518 w=54447
+processAncestors
+v=75518 w=54446
+processAncestors
+v=75518 w=54445
+processAncestors
+v=75517 w=54447
+processAncestors
+v=75517 w=54446
+processAncestors
+v=75517 w=54445
+processAncestors
+Noun=tea Other=milk dist=2
+Calculating distance:
+SAP.length
+v=75521 w=21249
+processAncestors
+v=75520 w=21249
+processAncestors
+v=75519 w=21249
+processAncestors
+v=75518 w=21249
+processAncestors
+v=75517 w=21249
+processAncestors
+Noun=tea Other=apple_juice dist=3
+Calculating distance:
+SAP.length
+v=75521 w=30233
+processAncestors
+v=75521 w=30231
+processAncestors
+v=75521 w=30230
+processAncestors
+v=75521 w=29103
+processAncestors
+v=75520 w=30233
+processAncestors
+v=75520 w=30231
+processAncestors
+v=75520 w=30230
+processAncestors
+v=75520 w=29103
+processAncestors
+v=75519 w=30233
+processAncestors
+v=75519 w=30231
+processAncestors
+v=75519 w=30230
+processAncestors
+v=75519 w=29103
+processAncestors
+v=75518 w=30233
+processAncestors
+v=75518 w=30231
+processAncestors
+v=75518 w=30230
+processAncestors
+v=75518 w=29103
+processAncestors
+v=75517 w=30233
+processAncestors
+v=75517 w=30231
+processAncestors
+v=75517 w=30230
+processAncestors
+v=75517 w=29103
+processAncestors
+Noun=tea Other=coffee dist=2
+noun::tea dist::25
+Calculating distance:
+SAP.length
+v=30233 w=80366
+processAncestors
+v=30233 w=80257
+processAncestors
+v=30233 w=80256
+processAncestors
+v=30233 w=80255
+processAncestors
+v=30233 w=78942
+processAncestors
+v=30233 w=25113
+processAncestors
+v=30231 w=80366
+processAncestors
+v=30231 w=80257
+processAncestors
+v=30231 w=80256
+processAncestors
+v=30231 w=80255
+processAncestors
+v=30231 w=78942
+processAncestors
+v=30231 w=25113
+processAncestors
+v=30230 w=80366
+processAncestors
+v=30230 w=80257
+processAncestors
+v=30230 w=80256
+processAncestors
+v=30230 w=80255
+processAncestors
+v=30230 w=78942
+processAncestors
+v=30230 w=25113
+processAncestors
+v=29103 w=80366
+processAncestors
+v=29103 w=80257
+processAncestors
+v=29103 w=80256
+processAncestors
+v=29103 w=80255
+processAncestors
+v=29103 w=78942
+processAncestors
+v=29103 w=25113
+processAncestors
+Noun=coffee Other=water dist=3
+Calculating distance:
+SAP.length
+v=30233 w=71371
+processAncestors
+v=30233 w=62004
+processAncestors
+v=30231 w=71371
+processAncestors
+v=30231 w=62004
+processAncestors
+v=30230 w=71371
+processAncestors
+v=30230 w=62004
+processAncestors
+v=29103 w=71371
+processAncestors
+v=29103 w=62004
+processAncestors
+Noun=coffee Other=soda dist=3
+Calculating distance:
+SAP.length
+v=30233 w=68642
+processAncestors
+v=30233 w=50652
+processAncestors
+v=30233 w=23644
+processAncestors
+v=30233 w=23643
+processAncestors
+v=30233 w=23642
+processAncestors
+v=30233 w=23641
+processAncestors
+v=30233 w=23640
+processAncestors
+v=30233 w=23639
+processAncestors
+v=30231 w=68642
+processAncestors
+v=30231 w=50652
+processAncestors
+v=30231 w=23644
+processAncestors
+v=30231 w=23643
+processAncestors
+v=30231 w=23642
+processAncestors
+v=30231 w=23641
+processAncestors
+v=30231 w=23640
+processAncestors
+v=30231 w=23639
+processAncestors
+v=30230 w=68642
+processAncestors
+v=30230 w=50652
+processAncestors
+v=30230 w=23644
+processAncestors
+v=30230 w=23643
+processAncestors
+v=30230 w=23642
+processAncestors
+v=30230 w=23641
+processAncestors
+v=30230 w=23640
+processAncestors
+v=30230 w=23639
+processAncestors
+v=29103 w=68642
+processAncestors
+v=29103 w=50652
+processAncestors
+v=29103 w=23644
+processAncestors
+v=29103 w=23643
+processAncestors
+v=29103 w=23642
+processAncestors
+v=29103 w=23641
+processAncestors
+v=29103 w=23640
+processAncestors
+v=29103 w=23639
+processAncestors
+Noun=coffee Other=bed dist=9
+Calculating distance:
+SAP.length
+v=30233 w=58049
+processAncestors
+v=30231 w=58049
+processAncestors
+v=30230 w=58049
+processAncestors
+v=29103 w=58049
+processAncestors
+Noun=coffee Other=orange_juice dist=3
+Calculating distance:
+SAP.length
+v=30233 w=54447
+processAncestors
+v=30233 w=54446
+processAncestors
+v=30233 w=54445
+processAncestors
+v=30231 w=54447
+processAncestors
+v=30231 w=54446
+processAncestors
+v=30231 w=54445
+processAncestors
+v=30230 w=54447
+processAncestors
+v=30230 w=54446
+processAncestors
+v=30230 w=54445
+processAncestors
+v=29103 w=54447
+processAncestors
+v=29103 w=54446
+processAncestors
+v=29103 w=54445
+processAncestors
+Noun=coffee Other=milk dist=2
+Calculating distance:
+SAP.length
+v=30233 w=21249
+processAncestors
+v=30231 w=21249
+processAncestors
+v=30230 w=21249
+processAncestors
+v=29103 w=21249
+processAncestors
+Noun=coffee Other=apple_juice dist=3
+Calculating distance:
+SAP.length
+v=30233 w=75521
+processAncestors
+v=30233 w=75520
+processAncestors
+v=30233 w=75519
+processAncestors
+v=30233 w=75518
+processAncestors
+v=30233 w=75517
+processAncestors
+v=30231 w=75521
+processAncestors
+v=30231 w=75520
+processAncestors
+v=30231 w=75519
+processAncestors
+v=30231 w=75518
+processAncestors
+v=30231 w=75517
+processAncestors
+v=30230 w=75521
+processAncestors
+v=30230 w=75520
+processAncestors
+v=30230 w=75519
+processAncestors
+v=30230 w=75518
+processAncestors
+v=30230 w=75517
+processAncestors
+v=29103 w=75521
+processAncestors
+v=29103 w=75520
+processAncestors
+v=29103 w=75519
+processAncestors
+v=29103 w=75518
+processAncestors
+v=29103 w=75517
+processAncestors
+Noun=coffee Other=tea dist=2
+noun::coffee dist::25
+C:\Users\slefrancois\Documents\WorkingDirectory\Personal\Projects\scala_class\Algo2\Wordnet\etc\outcast8.txt: bed
+Processing file:C:\Users\slefrancois\Documents\WorkingDirectory\Personal\Projects\scala_class\Algo2\Wordnet\etc\outcast11.txt
+Calculating distance:
+SAP.length
+v=21241 w=59714
+processAncestors
+v=21241 w=59713
+processAncestors
+v=21240 w=59714
+processAncestors
+v=21240 w=59713
+processAncestors
+Noun=apple Other=pear dist=2
+Calculating distance:
+SAP.length
+v=21241 w=81995
+processAncestors
+v=21241 w=71016
+processAncestors
+v=21241 w=59685
+processAncestors
+v=21241 w=59684
+processAncestors
+v=21240 w=81995
+processAncestors
+v=21240 w=71016
+processAncestors
+v=21240 w=59685
+processAncestors
+v=21240 w=59684
+processAncestors
+Noun=apple Other=peach dist=2
+Calculating distance:
+SAP.length
+v=21241 w=22887
+processAncestors
+v=21241 w=22886
+processAncestors
+v=21240 w=22887
+processAncestors
+v=21240 w=22886
+processAncestors
+Noun=apple Other=banana dist=2
+Calculating distance:
+SAP.length
+v=21241 w=51462
+processAncestors
+v=21241 w=51421
+processAncestors
+v=21241 w=51420
+processAncestors
+v=21241 w=26929
+processAncestors
+v=21241 w=26924
+processAncestors
+v=21241 w=24342
+processAncestors
+v=21240 w=51462
+processAncestors
+v=21240 w=51421
+processAncestors
+v=21240 w=51420
+processAncestors
+v=21240 w=26929
+processAncestors
+v=21240 w=26924
+processAncestors
+v=21240 w=24342
+processAncestors
+Noun=apple Other=lime dist=3
+Calculating distance:
+SAP.length
+v=21241 w=50940
+processAncestors
+v=21241 w=50939
+processAncestors
+v=21241 w=50938
+processAncestors
+v=21241 w=50937
+processAncestors
+v=21241 w=42083
+processAncestors
+v=21240 w=50940
+processAncestors
+v=21240 w=50939
+processAncestors
+v=21240 w=50938
+processAncestors
+v=21240 w=50937
+processAncestors
+v=21240 w=42083
+processAncestors
+Noun=apple Other=lemon dist=3
+Calculating distance:
+SAP.length
+v=21241 w=24961
+processAncestors
+v=21241 w=24960
+processAncestors
+v=21240 w=24961
+processAncestors
+v=21240 w=24960
+processAncestors
+Noun=apple Other=blueberry dist=3
+Calculating distance:
+SAP.length
+v=21241 w=73614
+processAncestors
+v=21241 w=73613
+processAncestors
+v=21241 w=73612
+processAncestors
+v=21240 w=73614
+processAncestors
+v=21240 w=73613
+processAncestors
+v=21240 w=73612
+processAncestors
+Noun=apple Other=strawberry dist=3
+Calculating distance:
+SAP.length
+v=21241 w=52979
+processAncestors
+v=21241 w=52978
+processAncestors
+v=21240 w=52979
+processAncestors
+v=21240 w=52978
+processAncestors
+Noun=apple Other=mango dist=2
+Calculating distance:
+SAP.length
+v=21241 w=80410
+processAncestors
+v=21241 w=80409
+processAncestors
+v=21240 w=80410
+processAncestors
+v=21240 w=80409
+processAncestors
+Noun=apple Other=watermelon dist=3
+Calculating distance:
+SAP.length
+v=21241 w=62295
+processAncestors
+v=21241 w=62294
+processAncestors
+v=21240 w=62295
+processAncestors
+v=21240 w=62294
+processAncestors
+Noun=apple Other=potato dist=8
+noun::apple dist::31
+Calculating distance:
+SAP.length
+v=59714 w=21241
+processAncestors
+v=59714 w=21240
+processAncestors
+v=59713 w=21241
+processAncestors
+v=59713 w=21240
+processAncestors
+Noun=pear Other=apple dist=2
+Calculating distance:
+SAP.length
+v=59714 w=81995
+processAncestors
+v=59714 w=71016
+processAncestors
+v=59714 w=59685
+processAncestors
+v=59714 w=59684
+processAncestors
+v=59713 w=81995
+processAncestors
+v=59713 w=71016
+processAncestors
+v=59713 w=59685
+processAncestors
+v=59713 w=59684
+processAncestors
+Noun=pear Other=peach dist=2
+Calculating distance:
+SAP.length
+v=59714 w=22887
+processAncestors
+v=59714 w=22886
+processAncestors
+v=59713 w=22887
+processAncestors
+v=59713 w=22886
+processAncestors
+Noun=pear Other=banana dist=2
+Calculating distance:
+SAP.length
+v=59714 w=51462
+processAncestors
+v=59714 w=51421
+processAncestors
+v=59714 w=51420
+processAncestors
+v=59714 w=26929
+processAncestors
+v=59714 w=26924
+processAncestors
+v=59714 w=24342
+processAncestors
+v=59713 w=51462
+processAncestors
+v=59713 w=51421
+processAncestors
+v=59713 w=51420
+processAncestors
+v=59713 w=26929
+processAncestors
+v=59713 w=26924
+processAncestors
+v=59713 w=24342
+processAncestors
+Noun=pear Other=lime dist=3
+Calculating distance:
+SAP.length
+v=59714 w=50940
+processAncestors
+v=59714 w=50939
+processAncestors
+v=59714 w=50938
+processAncestors
+v=59714 w=50937
+processAncestors
+v=59714 w=42083
+processAncestors
+v=59713 w=50940
+processAncestors
+v=59713 w=50939
+processAncestors
+v=59713 w=50938
+processAncestors
+v=59713 w=50937
+processAncestors
+v=59713 w=42083
+processAncestors
+Noun=pear Other=lemon dist=3
+Calculating distance:
+SAP.length
+v=59714 w=24961
+processAncestors
+v=59714 w=24960
+processAncestors
+v=59713 w=24961
+processAncestors
+v=59713 w=24960
+processAncestors
+Noun=pear Other=blueberry dist=3
+Calculating distance:
+SAP.length
+v=59714 w=73614
+processAncestors
+v=59714 w=73613
+processAncestors
+v=59714 w=73612
+processAncestors
+v=59713 w=73614
+processAncestors
+v=59713 w=73613
+processAncestors
+v=59713 w=73612
+processAncestors
+Noun=pear Other=strawberry dist=3
+Calculating distance:
+SAP.length
+v=59714 w=52979
+processAncestors
+v=59714 w=52978
+processAncestors
+v=59713 w=52979
+processAncestors
+v=59713 w=52978
+processAncestors
+Noun=pear Other=mango dist=2
+Calculating distance:
+SAP.length
+v=59714 w=80410
+processAncestors
+v=59714 w=80409
+processAncestors
+v=59713 w=80410
+processAncestors
+v=59713 w=80409
+processAncestors
+Noun=pear Other=watermelon dist=3
+Calculating distance:
+SAP.length
+v=59714 w=62295
+processAncestors
+v=59714 w=62294
+processAncestors
+v=59713 w=62295
+processAncestors
+v=59713 w=62294
+processAncestors
+Noun=pear Other=potato dist=7
+noun::pear dist::30
+Calculating distance:
+SAP.length
+v=81995 w=21241
+processAncestors
+v=81995 w=21240
+processAncestors
+v=71016 w=21241
+processAncestors
+v=71016 w=21240
+processAncestors
+v=59685 w=21241
+processAncestors
+v=59685 w=21240
+processAncestors
+v=59684 w=21241
+processAncestors
+v=59684 w=21240
+processAncestors
+Noun=peach Other=apple dist=2
+Calculating distance:
+SAP.length
+v=81995 w=59714
+processAncestors
+v=81995 w=59713
+processAncestors
+v=71016 w=59714
+processAncestors
+v=71016 w=59713
+processAncestors
+v=59685 w=59714
+processAncestors
+v=59685 w=59713
+processAncestors
+v=59684 w=59714
+processAncestors
+v=59684 w=59713
+processAncestors
+Noun=peach Other=pear dist=2
+Calculating distance:
+SAP.length
+v=81995 w=22887
+processAncestors
+v=81995 w=22886
+processAncestors
+v=71016 w=22887
+processAncestors
+v=71016 w=22886
+processAncestors
+v=59685 w=22887
+processAncestors
+v=59685 w=22886
+processAncestors
+v=59684 w=22887
+processAncestors
+v=59684 w=22886
+processAncestors
+Noun=peach Other=banana dist=2
+Calculating distance:
+SAP.length
+v=81995 w=51462
+processAncestors
+v=81995 w=51421
+processAncestors
+v=81995 w=51420
+processAncestors
+v=81995 w=26929
+processAncestors
+v=81995 w=26924
+processAncestors
+v=81995 w=24342
+processAncestors
+v=71016 w=51462
+processAncestors
+v=71016 w=51421
+processAncestors
+v=71016 w=51420
+processAncestors
+v=71016 w=26929
+processAncestors
+v=71016 w=26924
+processAncestors
+v=71016 w=24342
+processAncestors
+v=59685 w=51462
+processAncestors
+v=59685 w=51421
+processAncestors
+v=59685 w=51420
+processAncestors
+v=59685 w=26929
+processAncestors
+v=59685 w=26924
+processAncestors
+v=59685 w=24342
+processAncestors
+v=59684 w=51462
+processAncestors
+v=59684 w=51421
+processAncestors
+v=59684 w=51420
+processAncestors
+v=59684 w=26929
+processAncestors
+v=59684 w=26924
+processAncestors
+v=59684 w=24342
+processAncestors
+Noun=peach Other=lime dist=3
+Calculating distance:
+SAP.length
+v=81995 w=50940
+processAncestors
+v=81995 w=50939
+processAncestors
+v=81995 w=50938
+processAncestors
+v=81995 w=50937
+processAncestors
+v=81995 w=42083
+processAncestors
+v=71016 w=50940
+processAncestors
+v=71016 w=50939
+processAncestors
+v=71016 w=50938
+processAncestors
+v=71016 w=50937
+processAncestors
+v=71016 w=42083
+processAncestors
+v=59685 w=50940
+processAncestors
+v=59685 w=50939
+processAncestors
+v=59685 w=50938
+processAncestors
+v=59685 w=50937
+processAncestors
+v=59685 w=42083
+processAncestors
+v=59684 w=50940
+processAncestors
+v=59684 w=50939
+processAncestors
+v=59684 w=50938
+processAncestors
+v=59684 w=50937
+processAncestors
+v=59684 w=42083
+processAncestors
+Noun=peach Other=lemon dist=3
+Calculating distance:
+SAP.length
+v=81995 w=24961
+processAncestors
+v=81995 w=24960
+processAncestors
+v=71016 w=24961
+processAncestors
+v=71016 w=24960
+processAncestors
+v=59685 w=24961
+processAncestors
+v=59685 w=24960
+processAncestors
+v=59684 w=24961
+processAncestors
+v=59684 w=24960
+processAncestors
+Noun=peach Other=blueberry dist=3
+Calculating distance:
+SAP.length
+v=81995 w=73614
+processAncestors
+v=81995 w=73613
+processAncestors
+v=81995 w=73612
+processAncestors
+v=71016 w=73614
+processAncestors
+v=71016 w=73613
+processAncestors
+v=71016 w=73612
+processAncestors
+v=59685 w=73614
+processAncestors
+v=59685 w=73613
+processAncestors
+v=59685 w=73612
+processAncestors
+v=59684 w=73614
+processAncestors
+v=59684 w=73613
+processAncestors
+v=59684 w=73612
+processAncestors
+Noun=peach Other=strawberry dist=3
+Calculating distance:
+SAP.length
+v=81995 w=52979
+processAncestors
+v=81995 w=52978
+processAncestors
+v=71016 w=52979
+processAncestors
+v=71016 w=52978
+processAncestors
+v=59685 w=52979
+processAncestors
+v=59685 w=52978
+processAncestors
+v=59684 w=52979
+processAncestors
+v=59684 w=52978
+processAncestors
+Noun=peach Other=mango dist=2
+Calculating distance:
+SAP.length
+v=81995 w=80410
+processAncestors
+v=81995 w=80409
+processAncestors
+v=71016 w=80410
+processAncestors
+v=71016 w=80409
+processAncestors
+v=59685 w=80410
+processAncestors
+v=59685 w=80409
+processAncestors
+v=59684 w=80410
+processAncestors
+v=59684 w=80409
+processAncestors
+Noun=peach Other=watermelon dist=3
+Calculating distance:
+SAP.length
+v=81995 w=62295
+processAncestors
+v=81995 w=62294
+processAncestors
+v=71016 w=62295
+processAncestors
+v=71016 w=62294
+processAncestors
+v=59685 w=62295
+processAncestors
+v=59685 w=62294
+processAncestors
+v=59684 w=62295
+processAncestors
+v=59684 w=62294
+processAncestors
+Noun=peach Other=potato dist=7
+noun::peach dist::30
+Calculating distance:
+SAP.length
+v=22887 w=21241
+processAncestors
+v=22887 w=21240
+processAncestors
+v=22886 w=21241
+processAncestors
+v=22886 w=21240
+processAncestors
+Noun=banana Other=apple dist=2
+Calculating distance:
+SAP.length
+v=22887 w=59714
+processAncestors
+v=22887 w=59713
+processAncestors
+v=22886 w=59714
+processAncestors
+v=22886 w=59713
+processAncestors
+Noun=banana Other=pear dist=2
+Calculating distance:
+SAP.length
+v=22887 w=81995
+processAncestors
+v=22887 w=71016
+processAncestors
+v=22887 w=59685
+processAncestors
+v=22887 w=59684
+processAncestors
+v=22886 w=81995
+processAncestors
+v=22886 w=71016
+processAncestors
+v=22886 w=59685
+processAncestors
+v=22886 w=59684
+processAncestors
+Noun=banana Other=peach dist=2
+Calculating distance:
+SAP.length
+v=22887 w=51462
+processAncestors
+v=22887 w=51421
+processAncestors
+v=22887 w=51420
+processAncestors
+v=22887 w=26929
+processAncestors
+v=22887 w=26924
+processAncestors
+v=22887 w=24342
+processAncestors
+v=22886 w=51462
+processAncestors
+v=22886 w=51421
+processAncestors
+v=22886 w=51420
+processAncestors
+v=22886 w=26929
+processAncestors
+v=22886 w=26924
+processAncestors
+v=22886 w=24342
+processAncestors
+Noun=banana Other=lime dist=3
+Calculating distance:
+SAP.length
+v=22887 w=50940
+processAncestors
+v=22887 w=50939
+processAncestors
+v=22887 w=50938
+processAncestors
+v=22887 w=50937
+processAncestors
+v=22887 w=42083
+processAncestors
+v=22886 w=50940
+processAncestors
+v=22886 w=50939
+processAncestors
+v=22886 w=50938
+processAncestors
+v=22886 w=50937
+processAncestors
+v=22886 w=42083
+processAncestors
+Noun=banana Other=lemon dist=3
+Calculating distance:
+SAP.length
+v=22887 w=24961
+processAncestors
+v=22887 w=24960
+processAncestors
+v=22886 w=24961
+processAncestors
+v=22886 w=24960
+processAncestors
+Noun=banana Other=blueberry dist=3
+Calculating distance:
+SAP.length
+v=22887 w=73614
+processAncestors
+v=22887 w=73613
+processAncestors
+v=22887 w=73612
+processAncestors
+v=22886 w=73614
+processAncestors
+v=22886 w=73613
+processAncestors
+v=22886 w=73612
+processAncestors
+Noun=banana Other=strawberry dist=2
+Calculating distance:
+SAP.length
+v=22887 w=52979
+processAncestors
+v=22887 w=52978
+processAncestors
+v=22886 w=52979
+processAncestors
+v=22886 w=52978
+processAncestors
+Noun=banana Other=mango dist=2
+Calculating distance:
+SAP.length
+v=22887 w=80410
+processAncestors
+v=22887 w=80409
+processAncestors
+v=22886 w=80410
+processAncestors
+v=22886 w=80409
+processAncestors
+Noun=banana Other=watermelon dist=3
+Calculating distance:
+SAP.length
+v=22887 w=62295
+processAncestors
+v=22887 w=62294
+processAncestors
+v=22886 w=62295
+processAncestors
+v=22886 w=62294
+processAncestors
+Noun=banana Other=potato dist=4
+noun::banana dist::26
+Calculating distance:
+SAP.length
+v=51462 w=21241
+processAncestors
+v=51462 w=21240
+processAncestors
+v=51421 w=21241
+processAncestors
+v=51421 w=21240
+processAncestors
+v=51420 w=21241
+processAncestors
+v=51420 w=21240
+processAncestors
+v=26929 w=21241
+processAncestors
+v=26929 w=21240
+processAncestors
+v=26924 w=21241
+processAncestors
+v=26924 w=21240
+processAncestors
+v=24342 w=21241
+processAncestors
+v=24342 w=21240
+processAncestors
+Noun=lime Other=apple dist=3
+Calculating distance:
+SAP.length
+v=51462 w=59714
+processAncestors
+v=51462 w=59713
+processAncestors
+v=51421 w=59714
+processAncestors
+v=51421 w=59713
+processAncestors
+v=51420 w=59714
+processAncestors
+v=51420 w=59713
+processAncestors
+v=26929 w=59714
+processAncestors
+v=26929 w=59713
+processAncestors
+v=26924 w=59714
+processAncestors
+v=26924 w=59713
+processAncestors
+v=24342 w=59714
+processAncestors
+v=24342 w=59713
+processAncestors
+Noun=lime Other=pear dist=3
+Calculating distance:
+SAP.length
+v=51462 w=81995
+processAncestors
+v=51462 w=71016
+processAncestors
+v=51462 w=59685
+processAncestors
+v=51462 w=59684
+processAncestors
+v=51421 w=81995
+processAncestors
+v=51421 w=71016
+processAncestors
+v=51421 w=59685
+processAncestors
+v=51421 w=59684
+processAncestors
+v=51420 w=81995
+processAncestors
+v=51420 w=71016
+processAncestors
+v=51420 w=59685
+processAncestors
+v=51420 w=59684
+processAncestors
+v=26929 w=81995
+processAncestors
+v=26929 w=71016
+processAncestors
+v=26929 w=59685
+processAncestors
+v=26929 w=59684
+processAncestors
+v=26924 w=81995
+processAncestors
+v=26924 w=71016
+processAncestors
+v=26924 w=59685
+processAncestors
+v=26924 w=59684
+processAncestors
+v=24342 w=81995
+processAncestors
+v=24342 w=71016
+processAncestors
+v=24342 w=59685
+processAncestors
+v=24342 w=59684
+processAncestors
+Noun=lime Other=peach dist=3
+Calculating distance:
+SAP.length
+v=51462 w=22887
+processAncestors
+v=51462 w=22886
+processAncestors
+v=51421 w=22887
+processAncestors
+v=51421 w=22886
+processAncestors
+v=51420 w=22887
+processAncestors
+v=51420 w=22886
+processAncestors
+v=26929 w=22887
+processAncestors
+v=26929 w=22886
+processAncestors
+v=26924 w=22887
+processAncestors
+v=26924 w=22886
+processAncestors
+v=24342 w=22887
+processAncestors
+v=24342 w=22886
+processAncestors
+Noun=lime Other=banana dist=3
+Calculating distance:
+SAP.length
+v=51462 w=50940
+processAncestors
+v=51462 w=50939
+processAncestors
+v=51462 w=50938
+processAncestors
+v=51462 w=50937
+processAncestors
+v=51462 w=42083
+processAncestors
+v=51421 w=50940
+processAncestors
+v=51421 w=50939
+processAncestors
+v=51421 w=50938
+processAncestors
+v=51421 w=50937
+processAncestors
+v=51421 w=42083
+processAncestors
+v=51420 w=50940
+processAncestors
+v=51420 w=50939
+processAncestors
+v=51420 w=50938
+processAncestors
+v=51420 w=50937
+processAncestors
+v=51420 w=42083
+processAncestors
+v=26929 w=50940
+processAncestors
+v=26929 w=50939
+processAncestors
+v=26929 w=50938
+processAncestors
+v=26929 w=50937
+processAncestors
+v=26929 w=42083
+processAncestors
+v=26924 w=50940
+processAncestors
+v=26924 w=50939
+processAncestors
+v=26924 w=50938
+processAncestors
+v=26924 w=50937
+processAncestors
+v=26924 w=42083
+processAncestors
+v=24342 w=50940
+processAncestors
+v=24342 w=50939
+processAncestors
+v=24342 w=50938
+processAncestors
+v=24342 w=50937
+processAncestors
+v=24342 w=42083
+processAncestors
+Noun=lime Other=lemon dist=2
+Calculating distance:
+SAP.length
+v=51462 w=24961
+processAncestors
+v=51462 w=24960
+processAncestors
+v=51421 w=24961
+processAncestors
+v=51421 w=24960
+processAncestors
+v=51420 w=24961
+processAncestors
+v=51420 w=24960
+processAncestors
+v=26929 w=24961
+processAncestors
+v=26929 w=24960
+processAncestors
+v=26924 w=24961
+processAncestors
+v=26924 w=24960
+processAncestors
+v=24342 w=24961
+processAncestors
+v=24342 w=24960
+processAncestors
+Noun=lime Other=blueberry dist=4
+Calculating distance:
+SAP.length
+v=51462 w=73614
+processAncestors
+v=51462 w=73613
+processAncestors
+v=51462 w=73612
+processAncestors
+v=51421 w=73614
+processAncestors
+v=51421 w=73613
+processAncestors
+v=51421 w=73612
+processAncestors
+v=51420 w=73614
+processAncestors
+v=51420 w=73613
+processAncestors
+v=51420 w=73612
+processAncestors
+v=26929 w=73614
+processAncestors
+v=26929 w=73613
+processAncestors
+v=26929 w=73612
+processAncestors
+v=26924 w=73614
+processAncestors
+v=26924 w=73613
+processAncestors
+v=26924 w=73612
+processAncestors
+v=24342 w=73614
+processAncestors
+v=24342 w=73613
+processAncestors
+v=24342 w=73612
+processAncestors
+Noun=lime Other=strawberry dist=4
+Calculating distance:
+SAP.length
+v=51462 w=52979
+processAncestors
+v=51462 w=52978
+processAncestors
+v=51421 w=52979
+processAncestors
+v=51421 w=52978
+processAncestors
+v=51420 w=52979
+processAncestors
+v=51420 w=52978
+processAncestors
+v=26929 w=52979
+processAncestors
+v=26929 w=52978
+processAncestors
+v=26924 w=52979
+processAncestors
+v=26924 w=52978
+processAncestors
+v=24342 w=52979
+processAncestors
+v=24342 w=52978
+processAncestors
+Noun=lime Other=mango dist=3
+Calculating distance:
+SAP.length
+v=51462 w=80410
+processAncestors
+v=51462 w=80409
+processAncestors
+v=51421 w=80410
+processAncestors
+v=51421 w=80409
+processAncestors
+v=51420 w=80410
+processAncestors
+v=51420 w=80409
+processAncestors
+v=26929 w=80410
+processAncestors
+v=26929 w=80409
+processAncestors
+v=26924 w=80410
+processAncestors
+v=26924 w=80409
+processAncestors
+v=24342 w=80410
+processAncestors
+v=24342 w=80409
+processAncestors
+Noun=lime Other=watermelon dist=4
+Calculating distance:
+SAP.length
+v=51462 w=62295
+processAncestors
+v=51462 w=62294
+processAncestors
+v=51421 w=62295
+processAncestors
+v=51421 w=62294
+processAncestors
+v=51420 w=62295
+processAncestors
+v=51420 w=62294
+processAncestors
+v=26929 w=62295
+processAncestors
+v=26929 w=62294
+processAncestors
+v=26924 w=62295
+processAncestors
+v=26924 w=62294
+processAncestors
+v=24342 w=62295
+processAncestors
+v=24342 w=62294
+processAncestors
+Noun=lime Other=potato dist=5
+noun::lime dist::34
+Calculating distance:
+SAP.length
+v=50940 w=21241
+processAncestors
+v=50940 w=21240
+processAncestors
+v=50939 w=21241
+processAncestors
+v=50939 w=21240
+processAncestors
+v=50938 w=21241
+processAncestors
+v=50938 w=21240
+processAncestors
+v=50937 w=21241
+processAncestors
+v=50937 w=21240
+processAncestors
+v=42083 w=21241
+processAncestors
+v=42083 w=21240
+processAncestors
+Noun=lemon Other=apple dist=3
+Calculating distance:
+SAP.length
+v=50940 w=59714
+processAncestors
+v=50940 w=59713
+processAncestors
+v=50939 w=59714
+processAncestors
+v=50939 w=59713
+processAncestors
+v=50938 w=59714
+processAncestors
+v=50938 w=59713
+processAncestors
+v=50937 w=59714
+processAncestors
+v=50937 w=59713
+processAncestors
+v=42083 w=59714
+processAncestors
+v=42083 w=59713
+processAncestors
+Noun=lemon Other=pear dist=3
+Calculating distance:
+SAP.length
+v=50940 w=81995
+processAncestors
+v=50940 w=71016
+processAncestors
+v=50940 w=59685
+processAncestors
+v=50940 w=59684
+processAncestors
+v=50939 w=81995
+processAncestors
+v=50939 w=71016
+processAncestors
+v=50939 w=59685
+processAncestors
+v=50939 w=59684
+processAncestors
+v=50938 w=81995
+processAncestors
+v=50938 w=71016
+processAncestors
+v=50938 w=59685
+processAncestors
+v=50938 w=59684
+processAncestors
+v=50937 w=81995
+processAncestors
+v=50937 w=71016
+processAncestors
+v=50937 w=59685
+processAncestors
+v=50937 w=59684
+processAncestors
+v=42083 w=81995
+processAncestors
+v=42083 w=71016
+processAncestors
+v=42083 w=59685
+processAncestors
+v=42083 w=59684
+processAncestors
+Noun=lemon Other=peach dist=3
+Calculating distance:
+SAP.length
+v=50940 w=22887
+processAncestors
+v=50940 w=22886
+processAncestors
+v=50939 w=22887
+processAncestors
+v=50939 w=22886
+processAncestors
+v=50938 w=22887
+processAncestors
+v=50938 w=22886
+processAncestors
+v=50937 w=22887
+processAncestors
+v=50937 w=22886
+processAncestors
+v=42083 w=22887
+processAncestors
+v=42083 w=22886
+processAncestors
+Noun=lemon Other=banana dist=3
+Calculating distance:
+SAP.length
+v=50940 w=51462
+processAncestors
+v=50940 w=51421
+processAncestors
+v=50940 w=51420
+processAncestors
+v=50940 w=26929
+processAncestors
+v=50940 w=26924
+processAncestors
+v=50940 w=24342
+processAncestors
+v=50939 w=51462
+processAncestors
+v=50939 w=51421
+processAncestors
+v=50939 w=51420
+processAncestors
+v=50939 w=26929
+processAncestors
+v=50939 w=26924
+processAncestors
+v=50939 w=24342
+processAncestors
+v=50938 w=51462
+processAncestors
+v=50938 w=51421
+processAncestors
+v=50938 w=51420
+processAncestors
+v=50938 w=26929
+processAncestors
+v=50938 w=26924
+processAncestors
+v=50938 w=24342
+processAncestors
+v=50937 w=51462
+processAncestors
+v=50937 w=51421
+processAncestors
+v=50937 w=51420
+processAncestors
+v=50937 w=26929
+processAncestors
+v=50937 w=26924
+processAncestors
+v=50937 w=24342
+processAncestors
+v=42083 w=51462
+processAncestors
+v=42083 w=51421
+processAncestors
+v=42083 w=51420
+processAncestors
+v=42083 w=26929
+processAncestors
+v=42083 w=26924
+processAncestors
+v=42083 w=24342
+processAncestors
+Noun=lemon Other=lime dist=2
+Calculating distance:
+SAP.length
+v=50940 w=24961
+processAncestors
+v=50940 w=24960
+processAncestors
+v=50939 w=24961
+processAncestors
+v=50939 w=24960
+processAncestors
+v=50938 w=24961
+processAncestors
+v=50938 w=24960
+processAncestors
+v=50937 w=24961
+processAncestors
+v=50937 w=24960
+processAncestors
+v=42083 w=24961
+processAncestors
+v=42083 w=24960
+processAncestors
+Noun=lemon Other=blueberry dist=4
+Calculating distance:
+SAP.length
+v=50940 w=73614
+processAncestors
+v=50940 w=73613
+processAncestors
+v=50940 w=73612
+processAncestors
+v=50939 w=73614
+processAncestors
+v=50939 w=73613
+processAncestors
+v=50939 w=73612
+processAncestors
+v=50938 w=73614
+processAncestors
+v=50938 w=73613
+processAncestors
+v=50938 w=73612
+processAncestors
+v=50937 w=73614
+processAncestors
+v=50937 w=73613
+processAncestors
+v=50937 w=73612
+processAncestors
+v=42083 w=73614
+processAncestors
+v=42083 w=73613
+processAncestors
+v=42083 w=73612
+processAncestors
+Noun=lemon Other=strawberry dist=4
+Calculating distance:
+SAP.length
+v=50940 w=52979
+processAncestors
+v=50940 w=52978
+processAncestors
+v=50939 w=52979
+processAncestors
+v=50939 w=52978
+processAncestors
+v=50938 w=52979
+processAncestors
+v=50938 w=52978
+processAncestors
+v=50937 w=52979
+processAncestors
+v=50937 w=52978
+processAncestors
+v=42083 w=52979
+processAncestors
+v=42083 w=52978
+processAncestors
+Noun=lemon Other=mango dist=3
+Calculating distance:
+SAP.length
+v=50940 w=80410
+processAncestors
+v=50940 w=80409
+processAncestors
+v=50939 w=80410
+processAncestors
+v=50939 w=80409
+processAncestors
+v=50938 w=80410
+processAncestors
+v=50938 w=80409
+processAncestors
+v=50937 w=80410
+processAncestors
+v=50937 w=80409
+processAncestors
+v=42083 w=80410
+processAncestors
+v=42083 w=80409
+processAncestors
+Noun=lemon Other=watermelon dist=4
+Calculating distance:
+SAP.length
+v=50940 w=62295
+processAncestors
+v=50940 w=62294
+processAncestors
+v=50939 w=62295
+processAncestors
+v=50939 w=62294
+processAncestors
+v=50938 w=62295
+processAncestors
+v=50938 w=62294
+processAncestors
+v=50937 w=62295
+processAncestors
+v=50937 w=62294
+processAncestors
+v=42083 w=62295
+processAncestors
+v=42083 w=62294
+processAncestors
+Noun=lemon Other=potato dist=6
+noun::lemon dist::35
+Calculating distance:
+SAP.length
+v=24961 w=21241
+processAncestors
+v=24961 w=21240
+processAncestors
+v=24960 w=21241
+processAncestors
+v=24960 w=21240
+processAncestors
+Noun=blueberry Other=apple dist=3
+Calculating distance:
+SAP.length
+v=24961 w=59714
+processAncestors
+v=24961 w=59713
+processAncestors
+v=24960 w=59714
+processAncestors
+v=24960 w=59713
+processAncestors
+Noun=blueberry Other=pear dist=3
+Calculating distance:
+SAP.length
+v=24961 w=81995
+processAncestors
+v=24961 w=71016
+processAncestors
+v=24961 w=59685
+processAncestors
+v=24961 w=59684
+processAncestors
+v=24960 w=81995
+processAncestors
+v=24960 w=71016
+processAncestors
+v=24960 w=59685
+processAncestors
+v=24960 w=59684
+processAncestors
+Noun=blueberry Other=peach dist=3
+Calculating distance:
+SAP.length
+v=24961 w=22887
+processAncestors
+v=24961 w=22886
+processAncestors
+v=24960 w=22887
+processAncestors
+v=24960 w=22886
+processAncestors
+Noun=blueberry Other=banana dist=3
+Calculating distance:
+SAP.length
+v=24961 w=51462
+processAncestors
+v=24961 w=51421
+processAncestors
+v=24961 w=51420
+processAncestors
+v=24961 w=26929
+processAncestors
+v=24961 w=26924
+processAncestors
+v=24961 w=24342
+processAncestors
+v=24960 w=51462
+processAncestors
+v=24960 w=51421
+processAncestors
+v=24960 w=51420
+processAncestors
+v=24960 w=26929
+processAncestors
+v=24960 w=26924
+processAncestors
+v=24960 w=24342
+processAncestors
+Noun=blueberry Other=lime dist=4
+Calculating distance:
+SAP.length
+v=24961 w=50940
+processAncestors
+v=24961 w=50939
+processAncestors
+v=24961 w=50938
+processAncestors
+v=24961 w=50937
+processAncestors
+v=24961 w=42083
+processAncestors
+v=24960 w=50940
+processAncestors
+v=24960 w=50939
+processAncestors
+v=24960 w=50938
+processAncestors
+v=24960 w=50937
+processAncestors
+v=24960 w=42083
+processAncestors
+Noun=blueberry Other=lemon dist=4
+Calculating distance:
+SAP.length
+v=24961 w=73614
+processAncestors
+v=24961 w=73613
+processAncestors
+v=24961 w=73612
+processAncestors
+v=24960 w=73614
+processAncestors
+v=24960 w=73613
+processAncestors
+v=24960 w=73612
+processAncestors
+Noun=blueberry Other=strawberry dist=2
+Calculating distance:
+SAP.length
+v=24961 w=52979
+processAncestors
+v=24961 w=52978
+processAncestors
+v=24960 w=52979
+processAncestors
+v=24960 w=52978
+processAncestors
+Noun=blueberry Other=mango dist=3
+Calculating distance:
+SAP.length
+v=24961 w=80410
+processAncestors
+v=24961 w=80409
+processAncestors
+v=24960 w=80410
+processAncestors
+v=24960 w=80409
+processAncestors
+Noun=blueberry Other=watermelon dist=4
+Calculating distance:
+SAP.length
+v=24961 w=62295
+processAncestors
+v=24961 w=62294
+processAncestors
+v=24960 w=62295
+processAncestors
+v=24960 w=62294
+processAncestors
+Noun=blueberry Other=potato dist=5
+noun::blueberry dist::34
+Calculating distance:
+SAP.length
+v=73614 w=21241
+processAncestors
+v=73614 w=21240
+processAncestors
+v=73613 w=21241
+processAncestors
+v=73613 w=21240
+processAncestors
+v=73612 w=21241
+processAncestors
+v=73612 w=21240
+processAncestors
+Noun=strawberry Other=apple dist=3
+Calculating distance:
+SAP.length
+v=73614 w=59714
+processAncestors
+v=73614 w=59713
+processAncestors
+v=73613 w=59714
+processAncestors
+v=73613 w=59713
+processAncestors
+v=73612 w=59714
+processAncestors
+v=73612 w=59713
+processAncestors
+Noun=strawberry Other=pear dist=3
+Calculating distance:
+SAP.length
+v=73614 w=81995
+processAncestors
+v=73614 w=71016
+processAncestors
+v=73614 w=59685
+processAncestors
+v=73614 w=59684
+processAncestors
+v=73613 w=81995
+processAncestors
+v=73613 w=71016
+processAncestors
+v=73613 w=59685
+processAncestors
+v=73613 w=59684
+processAncestors
+v=73612 w=81995
+processAncestors
+v=73612 w=71016
+processAncestors
+v=73612 w=59685
+processAncestors
+v=73612 w=59684
+processAncestors
+Noun=strawberry Other=peach dist=3
+Calculating distance:
+SAP.length
+v=73614 w=22887
+processAncestors
+v=73614 w=22886
+processAncestors
+v=73613 w=22887
+processAncestors
+v=73613 w=22886
+processAncestors
+v=73612 w=22887
+processAncestors
+v=73612 w=22886
+processAncestors
+Noun=strawberry Other=banana dist=2
+Calculating distance:
+SAP.length
+v=73614 w=51462
+processAncestors
+v=73614 w=51421
+processAncestors
+v=73614 w=51420
+processAncestors
+v=73614 w=26929
+processAncestors
+v=73614 w=26924
+processAncestors
+v=73614 w=24342
+processAncestors
+v=73613 w=51462
+processAncestors
+v=73613 w=51421
+processAncestors
+v=73613 w=51420
+processAncestors
+v=73613 w=26929
+processAncestors
+v=73613 w=26924
+processAncestors
+v=73613 w=24342
+processAncestors
+v=73612 w=51462
+processAncestors
+v=73612 w=51421
+processAncestors
+v=73612 w=51420
+processAncestors
+v=73612 w=26929
+processAncestors
+v=73612 w=26924
+processAncestors
+v=73612 w=24342
+processAncestors
+Noun=strawberry Other=lime dist=4
+Calculating distance:
+SAP.length
+v=73614 w=50940
+processAncestors
+v=73614 w=50939
+processAncestors
+v=73614 w=50938
+processAncestors
+v=73614 w=50937
+processAncestors
+v=73614 w=42083
+processAncestors
+v=73613 w=50940
+processAncestors
+v=73613 w=50939
+processAncestors
+v=73613 w=50938
+processAncestors
+v=73613 w=50937
+processAncestors
+v=73613 w=42083
+processAncestors
+v=73612 w=50940
+processAncestors
+v=73612 w=50939
+processAncestors
+v=73612 w=50938
+processAncestors
+v=73612 w=50937
+processAncestors
+v=73612 w=42083
+processAncestors
+Noun=strawberry Other=lemon dist=4
+Calculating distance:
+SAP.length
+v=73614 w=24961
+processAncestors
+v=73614 w=24960
+processAncestors
+v=73613 w=24961
+processAncestors
+v=73613 w=24960
+processAncestors
+v=73612 w=24961
+processAncestors
+v=73612 w=24960
+processAncestors
+Noun=strawberry Other=blueberry dist=2
+Calculating distance:
+SAP.length
+v=73614 w=52979
+processAncestors
+v=73614 w=52978
+processAncestors
+v=73613 w=52979
+processAncestors
+v=73613 w=52978
+processAncestors
+v=73612 w=52979
+processAncestors
+v=73612 w=52978
+processAncestors
+Noun=strawberry Other=mango dist=3
+Calculating distance:
+SAP.length
+v=73614 w=80410
+processAncestors
+v=73614 w=80409
+processAncestors
+v=73613 w=80410
+processAncestors
+v=73613 w=80409
+processAncestors
+v=73612 w=80410
+processAncestors
+v=73612 w=80409
+processAncestors
+Noun=strawberry Other=watermelon dist=4
+Calculating distance:
+SAP.length
+v=73614 w=62295
+processAncestors
+v=73614 w=62294
+processAncestors
+v=73613 w=62295
+processAncestors
+v=73613 w=62294
+processAncestors
+v=73612 w=62295
+processAncestors
+v=73612 w=62294
+processAncestors
+Noun=strawberry Other=potato dist=4
+noun::strawberry dist::32
+Calculating distance:
+SAP.length
+v=52979 w=21241
+processAncestors
+v=52979 w=21240
+processAncestors
+v=52978 w=21241
+processAncestors
+v=52978 w=21240
+processAncestors
+Noun=mango Other=apple dist=2
+Calculating distance:
+SAP.length
+v=52979 w=59714
+processAncestors
+v=52979 w=59713
+processAncestors
+v=52978 w=59714
+processAncestors
+v=52978 w=59713
+processAncestors
+Noun=mango Other=pear dist=2
+Calculating distance:
+SAP.length
+v=52979 w=81995
+processAncestors
+v=52979 w=71016
+processAncestors
+v=52979 w=59685
+processAncestors
+v=52979 w=59684
+processAncestors
+v=52978 w=81995
+processAncestors
+v=52978 w=71016
+processAncestors
+v=52978 w=59685
+processAncestors
+v=52978 w=59684
+processAncestors
+Noun=mango Other=peach dist=2
+Calculating distance:
+SAP.length
+v=52979 w=22887
+processAncestors
+v=52979 w=22886
+processAncestors
+v=52978 w=22887
+processAncestors
+v=52978 w=22886
+processAncestors
+Noun=mango Other=banana dist=2
+Calculating distance:
+SAP.length
+v=52979 w=51462
+processAncestors
+v=52979 w=51421
+processAncestors
+v=52979 w=51420
+processAncestors
+v=52979 w=26929
+processAncestors
+v=52979 w=26924
+processAncestors
+v=52979 w=24342
+processAncestors
+v=52978 w=51462
+processAncestors
+v=52978 w=51421
+processAncestors
+v=52978 w=51420
+processAncestors
+v=52978 w=26929
+processAncestors
+v=52978 w=26924
+processAncestors
+v=52978 w=24342
+processAncestors
+Noun=mango Other=lime dist=3
+Calculating distance:
+SAP.length
+v=52979 w=50940
+processAncestors
+v=52979 w=50939
+processAncestors
+v=52979 w=50938
+processAncestors
+v=52979 w=50937
+processAncestors
+v=52979 w=42083
+processAncestors
+v=52978 w=50940
+processAncestors
+v=52978 w=50939
+processAncestors
+v=52978 w=50938
+processAncestors
+v=52978 w=50937
+processAncestors
+v=52978 w=42083
+processAncestors
+Noun=mango Other=lemon dist=3
+Calculating distance:
+SAP.length
+v=52979 w=24961
+processAncestors
+v=52979 w=24960
+processAncestors
+v=52978 w=24961
+processAncestors
+v=52978 w=24960
+processAncestors
+Noun=mango Other=blueberry dist=3
+Calculating distance:
+SAP.length
+v=52979 w=73614
+processAncestors
+v=52979 w=73613
+processAncestors
+v=52979 w=73612
+processAncestors
+v=52978 w=73614
+processAncestors
+v=52978 w=73613
+processAncestors
+v=52978 w=73612
+processAncestors
+Noun=mango Other=strawberry dist=3
+Calculating distance:
+SAP.length
+v=52979 w=80410
+processAncestors
+v=52979 w=80409
+processAncestors
+v=52978 w=80410
+processAncestors
+v=52978 w=80409
+processAncestors
+Noun=mango Other=watermelon dist=3
+Calculating distance:
+SAP.length
+v=52979 w=62295
+processAncestors
+v=52979 w=62294
+processAncestors
+v=52978 w=62295
+processAncestors
+v=52978 w=62294
+processAncestors
+Noun=mango Other=potato dist=5
+noun::mango dist::28
+Calculating distance:
+SAP.length
+v=80410 w=21241
+processAncestors
+v=80410 w=21240
+processAncestors
+v=80409 w=21241
+processAncestors
+v=80409 w=21240
+processAncestors
+Noun=watermelon Other=apple dist=3
+Calculating distance:
+SAP.length
+v=80410 w=59714
+processAncestors
+v=80410 w=59713
+processAncestors
+v=80409 w=59714
+processAncestors
+v=80409 w=59713
+processAncestors
+Noun=watermelon Other=pear dist=3
+Calculating distance:
+SAP.length
+v=80410 w=81995
+processAncestors
+v=80410 w=71016
+processAncestors
+v=80410 w=59685
+processAncestors
+v=80410 w=59684
+processAncestors
+v=80409 w=81995
+processAncestors
+v=80409 w=71016
+processAncestors
+v=80409 w=59685
+processAncestors
+v=80409 w=59684
+processAncestors
+Noun=watermelon Other=peach dist=3
+Calculating distance:
+SAP.length
+v=80410 w=22887
+processAncestors
+v=80410 w=22886
+processAncestors
+v=80409 w=22887
+processAncestors
+v=80409 w=22886
+processAncestors
+Noun=watermelon Other=banana dist=3
+Calculating distance:
+SAP.length
+v=80410 w=51462
+processAncestors
+v=80410 w=51421
+processAncestors
+v=80410 w=51420
+processAncestors
+v=80410 w=26929
+processAncestors
+v=80410 w=26924
+processAncestors
+v=80410 w=24342
+processAncestors
+v=80409 w=51462
+processAncestors
+v=80409 w=51421
+processAncestors
+v=80409 w=51420
+processAncestors
+v=80409 w=26929
+processAncestors
+v=80409 w=26924
+processAncestors
+v=80409 w=24342
+processAncestors
+Noun=watermelon Other=lime dist=4
+Calculating distance:
+SAP.length
+v=80410 w=50940
+processAncestors
+v=80410 w=50939
+processAncestors
+v=80410 w=50938
+processAncestors
+v=80410 w=50937
+processAncestors
+v=80410 w=42083
+processAncestors
+v=80409 w=50940
+processAncestors
+v=80409 w=50939
+processAncestors
+v=80409 w=50938
+processAncestors
+v=80409 w=50937
+processAncestors
+v=80409 w=42083
+processAncestors
+Noun=watermelon Other=lemon dist=4
+Calculating distance:
+SAP.length
+v=80410 w=24961
+processAncestors
+v=80410 w=24960
+processAncestors
+v=80409 w=24961
+processAncestors
+v=80409 w=24960
+processAncestors
+Noun=watermelon Other=blueberry dist=4
+Calculating distance:
+SAP.length
+v=80410 w=73614
+processAncestors
+v=80410 w=73613
+processAncestors
+v=80410 w=73612
+processAncestors
+v=80409 w=73614
+processAncestors
+v=80409 w=73613
+processAncestors
+v=80409 w=73612
+processAncestors
+Noun=watermelon Other=strawberry dist=4
+Calculating distance:
+SAP.length
+v=80410 w=52979
+processAncestors
+v=80410 w=52978
+processAncestors
+v=80409 w=52979
+processAncestors
+v=80409 w=52978
+processAncestors
+Noun=watermelon Other=mango dist=3
+Calculating distance:
+SAP.length
+v=80410 w=62295
+processAncestors
+v=80410 w=62294
+processAncestors
+v=80409 w=62295
+processAncestors
+v=80409 w=62294
+processAncestors
+Noun=watermelon Other=potato dist=4
+noun::watermelon dist::35
+Calculating distance:
+SAP.length
+v=62295 w=21241
+processAncestors
+v=62295 w=21240
+processAncestors
+v=62294 w=21241
+processAncestors
+v=62294 w=21240
+processAncestors
+Noun=potato Other=apple dist=8
+Calculating distance:
+SAP.length
+v=62295 w=59714
+processAncestors
+v=62295 w=59713
+processAncestors
+v=62294 w=59714
+processAncestors
+v=62294 w=59713
+processAncestors
+Noun=potato Other=pear dist=7
+Calculating distance:
+SAP.length
+v=62295 w=81995
+processAncestors
+v=62295 w=71016
+processAncestors
+v=62295 w=59685
+processAncestors
+v=62295 w=59684
+processAncestors
+v=62294 w=81995
+processAncestors
+v=62294 w=71016
+processAncestors
+v=62294 w=59685
+processAncestors
+v=62294 w=59684
+processAncestors
+Noun=potato Other=peach dist=7
+Calculating distance:
+SAP.length
+v=62295 w=22887
+processAncestors
+v=62295 w=22886
+processAncestors
+v=62294 w=22887
+processAncestors
+v=62294 w=22886
+processAncestors
+Noun=potato Other=banana dist=4
+Calculating distance:
+SAP.length
+v=62295 w=51462
+processAncestors
+v=62295 w=51421
+processAncestors
+v=62295 w=51420
+processAncestors
+v=62295 w=26929
+processAncestors
+v=62295 w=26924
+processAncestors
+v=62295 w=24342
+processAncestors
+v=62294 w=51462
+processAncestors
+v=62294 w=51421
+processAncestors
+v=62294 w=51420
+processAncestors
+v=62294 w=26929
+processAncestors
+v=62294 w=26924
+processAncestors
+v=62294 w=24342
+processAncestors
+Noun=potato Other=lime dist=5
+Calculating distance:
+SAP.length
+v=62295 w=50940
+processAncestors
+v=62295 w=50939
+processAncestors
+v=62295 w=50938
+processAncestors
+v=62295 w=50937
+processAncestors
+v=62295 w=42083
+processAncestors
+v=62294 w=50940
+processAncestors
+v=62294 w=50939
+processAncestors
+v=62294 w=50938
+processAncestors
+v=62294 w=50937
+processAncestors
+v=62294 w=42083
+processAncestors
+Noun=potato Other=lemon dist=6
+Calculating distance:
+SAP.length
+v=62295 w=24961
+processAncestors
+v=62295 w=24960
+processAncestors
+v=62294 w=24961
+processAncestors
+v=62294 w=24960
+processAncestors
+Noun=potato Other=blueberry dist=5
+Calculating distance:
+SAP.length
+v=62295 w=73614
+processAncestors
+v=62295 w=73613
+processAncestors
+v=62295 w=73612
+processAncestors
+v=62294 w=73614
+processAncestors
+v=62294 w=73613
+processAncestors
+v=62294 w=73612
+processAncestors
+Noun=potato Other=strawberry dist=4
+Calculating distance:
+SAP.length
+v=62295 w=52979
+processAncestors
+v=62295 w=52978
+processAncestors
+v=62294 w=52979
+processAncestors
+v=62294 w=52978
+processAncestors
+Noun=potato Other=mango dist=5
+Calculating distance:
+SAP.length
+v=62295 w=80410
+processAncestors
+v=62295 w=80409
+processAncestors
+v=62294 w=80410
+processAncestors
+v=62294 w=80409
+processAncestors
+Noun=potato Other=watermelon dist=4
+noun::potato dist::55
+C:\Users\slefrancois\Documents\WorkingDirectory\Personal\Projects\scala_class\Algo2\Wordnet\etc\outcast11.txt: potato

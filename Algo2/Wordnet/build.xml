@@ -1,0 +1,48 @@
+<project name="trviewer" default="dist" basedir=".">
+	
+	<property name="src" location="src"/>
+	<property name="dist" location="dist"/>
+	<property name="lib" location="lib"/>
+	<property name="bin" location="bin"/>
+	
+	<taskdef resource="checkstyletask.properties"
+	         classpath="${lib}/checkstyle-6.1-all.jar"/>
+	
+	<target name="clean">
+		<delete dir="${dist}/lib"/>
+		<delete dir="${bin}"/>
+	</target>
+	
+	<target name="init" depends="clean">
+		<mkdir dir="${dist}/lib"/>
+		<mkdir dir="${bin}"/>
+	</target>
+	
+	<target name="checkstyle">
+		  <checkstyle config="docs/sun_checks.xml"
+		              failureProperty="checkstyle.failure"
+		              failOnViolation="false">
+		    <formatter type="xml" tofile="checkstyle_report.xml"/>
+		    <fileset dir="src" includes="**/*.java"/>
+		  </checkstyle>
+		  <!--<style in="checkstyle_report.xml" out="checkstyle_report.html" style="checkstyle.xsl"/>-->
+	</target>
+	
+	<target name="compile" depends="init">
+		<javac srcdir="${src}" destdir="${bin}">
+			<classpath>
+				<fileset dir="${lib}">
+					<include name="**/*.jar"/>
+				</fileset>
+				<fileset dir="${dist}/lib">
+					<include name="**/*.jar"/>
+				</fileset>
+			</classpath>
+		</javac>
+	</target>
+	
+	<target name="dist" depends="compile">
+	    <jar jarfile="${dist}/wordnet.jar" basedir="${bin}"/>
+	</target>
+
+</project>

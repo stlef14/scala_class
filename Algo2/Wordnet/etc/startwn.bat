@@ -1,0 +1,1 @@
+java -cp ..\dist\wordnet.jar;..\lib\algs4.jar;..\lib\stdlib.jar WordNet C:\Users\slefrancois\Documents\WorkingDirectory\Personal\Projects\scala_class\Algo2\Wordnet\etc\smallsynsets.txt C:\Users\slefrancois\Documents\WorkingDirectory\Personal\Projects\scala_class\Algo2\Wordnet\etc\smallhypernyms.txt

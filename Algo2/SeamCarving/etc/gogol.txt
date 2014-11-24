@@ -1,0 +1,3 @@
+
+C:\Users\slefrancois\Documents\WorkingDirectory\Personal\Projects\scala_class\Algo2\SeamCarving\etc>java -cp ..\dist\seamcarver.jar;..\lib\algs4.jar;..\lib\stdlib.jar SeamCarver HJoceanSmall.png 
+Loading picture HJoceanSmall.png ...
